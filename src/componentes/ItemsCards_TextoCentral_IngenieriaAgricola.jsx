@@ -21,18 +21,17 @@ export default function ItemsCards_IngenieriaAgricola() {
     
           <div class="card-group">
 
-            <div class='row' >
-
-             <div class="card bg-dark text-white rounded-0">
-               <h2 class="card-header titulo1-text">INGENIERIA AGRICOLA</h2>
-            </div>          
-
+            <div class='row' >       
 
             <ImagenPrincipalSeccion /> 
+            
+            <div class="card bg-dark text-white rounded-0">
+               <h2 class="card-header titulo1-text">INGENIERIA AGRICOLA</h2>
+            </div>   
 
               {/* --1 */}
 
-              <div className="card p-2 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">                
+              <div className="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">                
                 <img className="card-img-fluid encuadrarimagen" src={Agronoma}  with='50%' height='50%' alt="Card image cap"/>
                 <div className="card-body">
                   <h5 className="card-title titulo2-text text-white shadow-text">INGENIERIA AGRICOLA</h5>            
@@ -47,7 +46,7 @@ export default function ItemsCards_IngenieriaAgricola() {
               </div>
 
               {/* --2 */}
-              <div className="card p-2 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+              <div className="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                 <img className="card-img-fluid encuadrarimagen" src={injertos} with='50%' height='50%' alt="Card image cap"/>
                 <div className="card-body">
                   <h5 className="card-title titulo2-text text-white shadow-text">INJERTOS</h5>
@@ -67,7 +66,7 @@ export default function ItemsCards_IngenieriaAgricola() {
               
               {/* --3 */}
 
-              <div className="card p-2 colorfondocardservicios_agricola border-0 rounded-0  col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+              <div className="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0  col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
 
                 <img className="card-img-fluid encuadrarimagen" src={controldeplagas} with='50%' height='50%' alt="Card image cap"/>
 
@@ -90,7 +89,7 @@ export default function ItemsCards_IngenieriaAgricola() {
 
               {/* --4 */}
 
-              <div className="card p-2 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-12 col-xl-3">
+              <div className="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-12 col-xl-3">
                 <img className="card-img-fluid encuadrarimagen" src={maiz} with='50%' height='50%' alt="Card image cap"/>
                 <div className="card-body">
                   <h5 className="card-title titulo2-text shadow-text text-white">ASESORÍA TÉCNICA EN PRODUCCIÓN DE CULTIVOS FRUTALES</h5>

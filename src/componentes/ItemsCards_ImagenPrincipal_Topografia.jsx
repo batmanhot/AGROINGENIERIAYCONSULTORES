@@ -8,14 +8,10 @@ export default function ImagenPrincipalSeccion() {
             <div class='row'> 
               <div class="overlay-dark bg-cover bg-center imagenprin_topografia" >
                   <div class="overlay-content text-white text-center p-1">
-                     <div  >                           
-                        {/* <p class="demo-text"> 
-                            Te ofrecemos manejo integrado de plagas, gestion y manejo de suelo, rotacion de cultivos, estan son practicas significativas en las actividades de produccion agricola. <br />
-                            El sector Agropecuario tien una serie de practicas que hacen posible usar los recursos  de forma eficiente y minimizan los impactos ambientales y busca las sostenibilidad mediante las practicas responsables.
-                         </p>  */}
-                         <div class="text-white rounded-0">
+                     <div  >                                                   
+                         {/* <div class="text-white rounded-0">
                             <h2 class="titulo1-text">TOPOGRAFIA, GEODESIA Y CATASTRO</h2>
-                        </div>   
+                        </div>    */}
                      </div> 
                   </div>
               </div>

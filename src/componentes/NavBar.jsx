@@ -23,10 +23,9 @@ import '../css/NavBar.css'
 const  MenuNavbar =() => {
     return (
         <div className='container-fluid'>
-
-          <div className='row'>          
-                {/* col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 */}
-                <nav className="navbar navbar-expand-md navbar-dark bg-dark h-400px col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" >
+        {/* bg-dark */}
+          <div className='row'>                          
+                <nav className="navbar navbar-expand-md navbar-dark fondo-color h-400px col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" >
                     {/* navbar-expand-lg */}
                     <img src = { loguito } className="img-fluid m-3" alt="logo" width="100rem"/>
                      {/* <a className="navbar-brand" href="#">AGROINGENIERIA & CONSULTORES PERU <h2> JBLAS PERU EIRL </h2></a> */}
@@ -58,7 +57,7 @@ const  MenuNavbar =() => {
                                     <Link className="dropdown-item text-item" to='/TopografiaGeodesia'><GiPencilRuler size= {'1rem'}/> Topografia y Geodesia </Link>
                                     <Link className="dropdown-item text-item" to='/ConstruccionObrasCiviles'><MdConstruction size= {'1rem'}/> Construccion </Link>    
 
-                                    <Link className="dropdown-item text-item" to='#'><BsFilePersonFill size= {'1rem'}/> Nuestros Clientes </Link>
+                                    <Link className="dropdown-item text-item" to='/NuestrosClientes'><BsFilePersonFill size= {'1rem'}/> Clientes Satisfechos </Link>
                                     <Link className="dropdown-item text-item" to='#'><GoBriefcase size= {'1rem'}/> Portafolio </Link>
                                     <Link className="dropdown-item text-item" to='#'><MdOutlineContactPhone size= {'1rem'}/> Contacto </Link>
                                 </div>
@@ -66,7 +65,7 @@ const  MenuNavbar =() => {
                             
 
                             <li className="nav-item">
-                                <Link className="nav-link" to='/IngenieriaAgricola'>NOSOTROS<br/><FaUserTie size= {'2rem'}/></Link>
+                                <Link className="nav-link" to='/Nosotros'>NOSOTROS<br/><FaUserTie size= {'2rem'}/></Link>
                             </li>
 
 

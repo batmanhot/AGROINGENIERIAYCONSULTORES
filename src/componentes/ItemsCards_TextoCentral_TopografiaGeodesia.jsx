@@ -25,13 +25,14 @@ export default function ItemsCards_TextoCentral() {
 
                 <div class='row' >
 
+                      <ImagenPrincipalSeccion /> 
+
                       <div class="card bg-dark text-white rounded-0">
                         <h2 class="card-header titulo1-text">TOPOGRAFIA, GEODESIA Y CATASTRO</h2>
                       </div>        
 
-                      <ImagenPrincipalSeccion /> 
                       
-                      <div class="card p-2 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                      <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                         <img class="card-img-fluid encuadrarimagen" src={topsuperficial}  with='50%' height='50%' alt="Card image cap"/>
                         <div class="card-body">
                           <h5 class="card-title titulo2-text text-white shadow-text">TOPOGRAFIA SUPERFICIAL</h5>
@@ -45,7 +46,7 @@ export default function ItemsCards_TextoCentral() {
                         </div>              
                       </div>
 
-                      <div class="card p-2 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                      <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                         <img class="card-img-fluid encuadrarimagen" src={topsubterranea} with='50%' height='50%' alt="Card image cap"/>
                         <div class="card-body">
                           <h5 class="card-title titulo2-text text-white shadow-text">TOPOGRAFIA MINERA</h5>
@@ -59,7 +60,7 @@ export default function ItemsCards_TextoCentral() {
                       </div>
                       
 
-                      <div class="card p-2 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                      <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
 
                         <img class="card-img-fluid encuadrarimagen" src={topcondrones} with='50%' height='50%' alt="Card image cap"/>
 
@@ -74,7 +75,7 @@ export default function ItemsCards_TextoCentral() {
                           </div>              
                       </div>
 
-                        <div class="card p-2 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-12 col-xl-3">
+                        <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-12 col-xl-3">
                           <img class="card-img-fluid encuadrarimagen" src={geodesia} with='50%' height='50%' alt="Card image cap"/>
                           <div class="card-body">
                               <h5 class="card-title titulo2-text text-white shadow-text">GEODESIA</h5>

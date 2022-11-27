@@ -32,6 +32,18 @@
    background: url(../imagen/ImagenPrincipal_Riego.jpg)   
 }
 
+.imagenprin_nosotros
+{
+   background: url(../imagen/ImagenPrincipalNosotros.jpg)      
+}
+
+.imagenprin_nuestrosclientes
+{
+   background: url(../imagen/ClientesSatisfechos.png)      
+   
+}
+
+
 .imagen
 {
     background: url(https://cdn.pixabay.com/photo/2016/06/20/00/40/strawberries-1467902_960_720.jpg)     
@@ -80,6 +92,7 @@ code {
 .titulo2-text {
     font-family:  Roboto, Helvetica, sans-serif; 
     font-size: 21px; 
+    font-weight: bold;
 }
 
 .titulo4-text {
@@ -87,7 +100,21 @@ code {
     font-size: 16px; 
 }
 
+.div-portafolio
+{
+    width: 50rem;    
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    /* margin-left: 150px; */
+}
 
+.div-listaenumerada
+{
+    margin-left: 5px;    
+    list-style-position: inside;
+    text-align: left;
+}
 
 
 

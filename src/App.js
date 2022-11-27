@@ -7,18 +7,22 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import PiedePagina from './componentes/Footer'
 import MenuNavbar from './componentes/NavBar'
 
-import CarrouselTest2 from './componentes/Carrouseltest2'
-import ItemsCards_TextoIzquierda from './componentes/ItemsCards_TextoIzquierda';
-import ItemsCards_TextoCentral from './componentes/ItemsCards_TextoCentral'
-import ItemsCards_TextoCircular  from './componentes/ItemsCards_TestoCircular'
-import ItemsCards_TextoSuperpuesto from './componentes/ItemsCards_TextoSuperpuesto'
 import ItemsCards_TextoCentral_TopografiaGeodesia from './componentes/ItemsCards_TextoCentral_TopografiaGeodesia'
-import ItemsCards_Texto_NuestrosServicios from './componentes/ItemsCards_Texto_NuestrosServicios'
 import ItemsCards_TextoCentral_RiegoTecnificadoFresas from './componentes/ItemsCards_TextoCentral_RiegoTecnificadoFresas'
 import ItemsCards_TextoCentral_IngenieriaAgricola from './componentes/ItemsCards_TextoCentral_IngenieriaAgricola'
 import ItemsCards_TextoCentral_ConstruccionObrasCiviles from './componentes/ItemsCards_TextoCentral_ConstruccionObrasCiviles'
-import ItemsCards_TextoCentral_ClientesSatisfechos from './componentes/ItemsCards_TextoCentral_ClientesSatisfechos.jsx'
-import ItemsCards_TextoSuperpuesto_ImagenPrincipal from './componentes/ItemsCards_TextoSuperpuesto_ImagenPrincipal'
+import ItemsCards_Nosotros from './componentes/ItemsCards_Nosotros.jsx'
+import ItemsCards_NuestrosClientes from './componentes/ItemsCards_TextoCentral_NuestrosClientes.jsx'
+
+// import CarrouselTest2 from './componentes/Carrouseltest2'
+// import ItemsCards_TextoIzquierda from './componentes/ItemsCards_TextoIzquierda';
+// import ItemsCards_TextoCentral from './componentes/ItemsCards_TextoCentral'
+// import ItemsCards_TextoCircular  from './componentes/ItemsCards_TestoCircular'
+// import ItemsCards_TextoSuperpuesto from './componentes/ItemsCards_TextoSuperpuesto'
+
+// import ItemsCards_Texto_NuestrosServicios from './componentes/ItemsCards_Texto_NuestrosServicios'
+// import ItemsCards_TextoCentral_ClientesSatisfechos from './componentes/ItemsCards_TextoCentral_ClientesSatisfechos.jsx'
+// import ItemsCards_TextoSuperpuesto_ImagenPrincipal from './componentes/ItemsCards_TextoSuperpuesto_ImagenPrincipal'
 import HomeWeb from './componentes/pages/home.jsx'
 
 
@@ -50,14 +54,12 @@ function App() {
               <Route path='/RiegoTecnificadoFresas' element ={<ItemsCards_TextoCentral_RiegoTecnificadoFresas/>}/> 
               <Route path='/TopografiaGeodesia' element ={<ItemsCards_TextoCentral_TopografiaGeodesia/>}/> 
               <Route path='/ConstruccionObrasCiviles' element ={<ItemsCards_TextoCentral_ConstruccionObrasCiviles/>}/>
+              <Route path='/Nosotros' element ={<ItemsCards_Nosotros/>}/>
+              <Route path='/NuestrosClientes' element ={<ItemsCards_NuestrosClientes/>}/>                            
             </Routes>   
             <PiedePagina/>                 
         </BrowserRouter>
-      
-
-
-
-      
+            
       {/* <MenuNavbar/> 
       <ItemsCards_TextoSuperpuesto_ImagenPrincipal/>
       <ItemsCards_Texto_NuestrosServicios/>

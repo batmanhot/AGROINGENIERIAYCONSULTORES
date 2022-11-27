@@ -5,15 +5,18 @@ export default function ImagenPrincipalSeccion() {
     return (
      <>              
           <div class="container-fluid"> 
-            <div class='row'>               
-              <div class="overlay-dark bg-cover bg-center p-0 imagenprin_construccioncivil" >
-                  <div class="overlay-content text-white text-center p-1">                     
-                     {/* <div  >                           
-                        <p class="demo-text"> 
+            <div class='row'> 
+              <div class="overlay-dark bg-cover bg-center imagenprin_nuestrosclientes" >
+                  <div class="overlay-content text-white text-center p-1">
+                     <div  >                           
+                        {/* <p class="demo-text"> 
                             Te ofrecemos manejo integrado de plagas, gestion y manejo de suelo, rotacion de cultivos, estan son practicas significativas en las actividades de produccion agricola. <br />
                             El sector Agropecuario tien una serie de practicas que hacen posible usar los recursos  de forma eficiente y minimizan los impactos ambientales y busca las sostenibilidad mediante las practicas responsables.
-                         </p> 
-                     </div>  */}
+                         </p>  */}
+                         {/* <div class="text-white rounded-0">
+                            <h2 class="titulo1-text">TOPOGRAFIA, GEODESIA Y CATASTRO</h2>
+                        </div>    */}
+                     </div> 
                   </div>
               </div>
             </div>

@@ -21,17 +21,15 @@ export default function ItemsCards_TextoCentral() {
       <div> 
         <div class="container-fluid">  
           <div class="card-group">
-            <div class='row' >            
-
-              <div class="card bg-dark text-white rounded-0">
-                 <h2 class="card-header titulo1-text">CONSTRUCCIONES Y OBRAS CIVILES</h2>
-             </div>    
+            <div class='row' >                         
 
                  <ImagenPrincipalSeccion /> 
 
-                 
-                 {/* colorfondocardservicios_agricola */}
-                <div class="card p-4 colorfondocardservicios_construccioncivil border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                 <div class="card bg-dark text-white rounded-0">
+                   <h2 class="card-header titulo1-text">CONSTRUCCIONES Y OBRAS CIVILES</h2>
+                 </div> 
+                                  
+                <div class="card text-card-padding colorfondocardservicios_construccioncivil border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <img class="card-img-fluid encuadrarimagen" src={controldeproyectos}  with='50%' height='50%' alt="Card image cap"/>
                   <div class="card-body">
                     <h5 class="card-title titulo2-text text-white shadow-text">CONTROL DE PROYECTOS DE OBRAS CIVILES</h5>
@@ -45,7 +43,7 @@ export default function ItemsCards_TextoCentral() {
                     </div>              
                 </div>
 
-                <div class="card p-4 colorfondocardservicios_construccioncivil border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                <div class="card text-card-padding colorfondocardservicios_construccioncivil border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <img class="card-img-fluid encuadrarimagen" src={carreteras} with='50%' height='50%' alt="Card image cap"/>
                   <div class="card-body">
                     <h5 class="card-title titulo2-text text-white shadow-text">CONSTRUCCION DE CARRETERAS</h5>
@@ -62,7 +60,7 @@ export default function ItemsCards_TextoCentral() {
                 </div>
                 
 
-                <div class="card p-4 colorfondocardservicios_construccioncivil border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
+                <div class="card text-card-padding colorfondocardservicios_construccioncivil border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
 
                   <img class="card-img-fluid encuadrarimagen" src={edificaciones} with='50%' height='50%' alt="Card image cap"/>
 
@@ -74,15 +72,15 @@ export default function ItemsCards_TextoCentral() {
                         Pero en el grupo de edificaciones también entran otras construcciones como los centros comerciales, las iglesias, los edificios de oficinas o los teatros. <br />
                         Asi tambien estamos en capacidad de participar en licitaciones.<br />
                         Realmente nos encargamos de todas las fases de una obra ofreciendo soluciones integrales de construcción, contacta con nosotros para cualquier duda que tengas.
-                    </p>
-                    
+                    </p>                    
                   </div>
-                  <div class="card-footer">
+
+                     <div class="card-footer">
                       <Button variant="primary">Mas detalles</Button>
                     </div>              
-                </div>
-                {/* p-2 colorfondocardservicios_agricola */}
-                <div class="card p-4 colorfondocardservicios_construccioncivil  border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-12 col-xl-3">
+                </div>                
+
+                <div class="card text-card-padding colorfondocardservicios_construccioncivil  border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-12 col-xl-3">
                   <img class="card-img-fluid encuadrarimagen" src={canalesacueductos} with='50%' height='50%' alt="Card image cap"/>
                   <div class="card-body">
                     <h5 class="card-title titulo2-text text-white shadow-text">CANALES DE IRRIGACION</h5>
@@ -91,7 +89,6 @@ export default function ItemsCards_TextoCentral() {
                         Son obras de ingeniería importantes, que deben ser cuidadosamente pensadas para no provocar daños al ambiente y para que se gaste la menor cantidad de agua posible. <br />
                         Están estrechamente vinculados a las características del terreno, generalmente siguen aproximadamente las curvas de nivel de este, descendiendo suavemente hacia cotas más bajas (dándole una pendiente descendente, para que el agua fluya más rápidamente).
                     </p>                             
-
                   </div>
 
                     <div class="card-footer">

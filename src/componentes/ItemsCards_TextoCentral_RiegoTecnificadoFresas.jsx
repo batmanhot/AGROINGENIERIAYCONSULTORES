@@ -18,13 +18,13 @@ export default function ItemsCards_TextoCentral() {
         <div class="card-group">
           <div class='row'> 
 
+              <ImagenPrincipalSeccion /> 
+
               <div class="card bg-dark text-white rounded-0">
                  <h2 class="card-header titulo1-text">RIEGO TECNIFICADO Y CULTIVO DE FRESAS</h2>
-              </div>   
-
-              <ImagenPrincipalSeccion /> 
+              </div> 
               
-              <div class="card p-2 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                 <img class="card-img-fluid encuadrarimagen" src={sembriodefresas}  with='50%' height='50%' alt="Card image cap"/>
                 <div class="card-body">
                   <h5 class="card-title titulo2-text text-white shadow-text">SEMBRIO DE FRESAS</h5>
@@ -40,7 +40,7 @@ export default function ItemsCards_TextoCentral() {
                   </div>              
               </div>
 
-              <div class="card p-2 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                 <img class="card-img-fluid encuadrarimagen" src={fresasyelriego} with='50%' height='50%' alt="Card image cap"/>
                 <div class="card-body">
                   <h5 class="card-title titulo2-text text-white shadow-text">LAS FRESAS Y EL RIEGO POR GOTEO</h5>
@@ -58,7 +58,7 @@ export default function ItemsCards_TextoCentral() {
                 </div>              
               </div>              
 
-              <div class="card p-2 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+              <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
 
                 <img class="card-img-fluid encuadrarimagen" src={riegoporgoteo} with='50%' height='50%' alt="Card image cap"/>
 
@@ -77,7 +77,7 @@ export default function ItemsCards_TextoCentral() {
                   </div>              
               </div>
 
-              <div class="card p-2 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-12 col-xl-3">
+              <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-12 col-xl-3">
                 <img class="card-img-fluid encuadrarimagen" src={instalacionderiego} with='50%' height='50%' alt="Card image cap"/>
                 <div class="card-body">
                   <h5 class="card-title titulo2-text text-white shadow-text">INSTALACIÓN DE RIEGO POR GOTEO</h5>
@@ -86,10 +86,6 @@ export default function ItemsCards_TextoCentral() {
                       El caudal de cada uno de estos dispositivos se reparte a través de unos adaptadores manifold que, debido a tubos capilares y estacas de soporte, aportarán a la planta, directamente en el sustrato inerte, el caudal de la solución nutritiva necesaria.< br/>                         
                       La función drop stop es fundamental para esta aplicación, ya que, evitando el vaciado de las tuberías lo que permite aplicar pequeños ciclos de riego (max tres por minutos) y cumplir completamente la prerrogativa de uniformidad y eficiencia de riego.                       
                   </p>
-
-                  {/* La compensación del caudal del gotero permite además de regular caudales distribuir los fertilizantes de manera uniforme a todos los puntos de goteo de la instalación.                   
-                  Estas dos peculiaridades de los goteros son imprescindibles si se quiere regar la f resa fuera del suelo de manera correcta. */}
-                  {/* de una instalación de riego por goteo moderna. */}
 
                 </div>
 

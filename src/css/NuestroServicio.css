@@ -10,13 +10,8 @@ Extra extra large	xxl	≥1400px
 */
 
 
-.colorfondocard {
-    /* background-color: #7d4338;    */
-    /* background-color: #615940; */
-    /* transition-duration: 0.2s; */
+.colorfondocard {  
     background-color: #3d2b1f;
-    
-    
   }
 
   a {
@@ -24,10 +19,7 @@ Extra extra large	xxl	≥1400px
   }
 
   .colorfondocardservicios_agricola {
-    /* background-color: #ff9100;      */
-    /* background-color: #006400; */
-    background-color: #738678;
-    
+    background-color: #738678;    
   }
 
   .colorfondocardservicios_topografia {
@@ -39,11 +31,14 @@ Extra extra large	xxl	≥1400px
   .colorfondocardservicios_construccioncivil {
     /* background-color: #ff9100;      */
     /* background-color: #006400; */
-    background-image: url(https://th.bing.com/th/id/OIP.PpIUzVmglrSI8poJ0cJPYwAAAA?pid=ImgDet&rs=1);
     /* background-image: url(https://images.pexels.com/photos/2682692/pexels-photo-2682692.jpeg?auto=compress&cs=tinysrgb&h=650&w=940); */
-    background-repeat: no-repeat;
-    background-size: cover;     
-    background-position: center center; 
+    /* background-image: url(https://th.bing.com/th/id/OIP.PpIUzVmglrSI8poJ0cJPYwAAAA?pid=ImgDet&rs=1); */
+    /* background-image: url(https://img.freepik.com/foto-gratis/pared-vacia-espacio-copia_1339-3030.jpg?w=2000); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center center; */
+     background-color: #808080; 
+     
   }
 
   .redondearimagen {
@@ -60,13 +55,20 @@ Extra extra large	xxl	≥1400px
     height : 50%;  */
     width  : 21rem;
     height : 16rem; 
-    border: 3px solid #666;
+    border: 3px solid black;
+    /* #666; */
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     align-self: center;
+    margin-top : 0px;
+    margin-bottom: 10px;
   }
 
   .texto-justificado{
     text-align: justify;
+  }
+
+  .text-card-padding{
+    padding: 24px 24px 24px 24px;    
   }
 
   
