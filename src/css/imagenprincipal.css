@@ -43,10 +43,17 @@
    
 }
 
+.imagenprin_portafolio
+{
+   background: url(../imagen/Portafolio.png)      
+   
+}
+
 
 .imagen
 {
-    background: url(https://cdn.pixabay.com/photo/2016/06/20/00/40/strawberries-1467902_960_720.jpg)     
+    /* background: url(https://cdn.pixabay.com/photo/2016/06/20/00/40/strawberries-1467902_960_720.jpg)      */
+    background: url(../imagen/topography.jpg)
 }
 
 .bg-cover {

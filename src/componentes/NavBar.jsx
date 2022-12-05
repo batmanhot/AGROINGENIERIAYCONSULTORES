@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaBeer, FaUserTie, FaServicestack } from 'react-icons/fa'
+import { FaUserTie, FaServicestack } from 'react-icons/fa'
 import { AiFillHome } from  'react-icons/ai'
 import { MdConstruction, MdAgriculture, MdOutlineContactPhone }  from 'react-icons/md'
 import { GiPencilRuler } from 'react-icons/gi'
@@ -10,7 +10,7 @@ import { GoBriefcase } from 'react-icons/go'
 import loguito from '../imagen/LOGO SIN FONDO.png'
 import '../css/NavBar.css'
 
- {/* /* Medidas de BreakPoint para el uso en col bootstrap
+  /* Medidas de BreakPoint para el uso en col bootstrap
         Breakpoint	Class infix	Dimensions
         X-Small	None	        <576px
         Small	sm	            ≥576px
@@ -18,7 +18,7 @@ import '../css/NavBar.css'
         Large	lg       	      ≥992px
         Extra large	xl	      ≥1200px
         Extra extra large	xxl	≥1400px
-        */ }
+        */
 
 const  MenuNavbar =() => {
     return (
@@ -51,15 +51,15 @@ const  MenuNavbar =() => {
                                 <Link className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                  SERVICIOS<br/><FaServicestack size= {'2rem'} />                                
                                 </Link>
-                                <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <Link className="dropdown-item text-item" to='/IngenieriaAgricola'><MdAgriculture size= {'1rem'}/> Ingenieria Agricola </Link>
-                                    <Link className="dropdown-item text-item" to='/RiegoTecnificadoFresas'><BsFillDropletFill size= {'1rem'}/> Riego Tecnificado </Link>
-                                    <Link className="dropdown-item text-item" to='/TopografiaGeodesia'><GiPencilRuler size= {'1rem'}/> Topografia y Geodesia </Link>
-                                    <Link className="dropdown-item text-item" to='/ConstruccionObrasCiviles'><MdConstruction size= {'1rem'}/> Construccion </Link>    
+                                <div className="dropdown-menu fondo-color" aria-labelledby="navbarDropdownMenuLink">
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/IngenieriaAgricola'><MdAgriculture size= {'1rem'}/> Ingenieria Agricola </Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/RiegoTecnificadoFresas'><BsFillDropletFill size= {'1rem'}/> Riego Tecnificado </Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/TopografiaGeodesia'><GiPencilRuler size= {'1rem'}/> Topografia y Geodesia </Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/ConstruccionObrasCiviles'><MdConstruction size= {'1rem'}/> Construccion </Link>    
 
-                                    <Link className="dropdown-item text-item" to='/NuestrosClientes'><BsFilePersonFill size= {'1rem'}/> Clientes Satisfechos </Link>
-                                    <Link className="dropdown-item text-item" to='#'><GoBriefcase size= {'1rem'}/> Portafolio </Link>
-                                    <Link className="dropdown-item text-item" to='#'><MdOutlineContactPhone size= {'1rem'}/> Contacto </Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/NuestrosClientes'><BsFilePersonFill size= {'1rem'}/> Clientes Satisfechos </Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/Portafolio'><GoBriefcase size= {'1rem'}/> Portafolio </Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='#'><MdOutlineContactPhone size= {'1rem'}/> Contacto </Link>
                                 </div>
                             </li>
                             
@@ -78,9 +78,3 @@ const  MenuNavbar =() => {
 }
  
 export default MenuNavbar;
-
-
-
-{/* <li class="nav-item p-2">
-<Link className="nav-link" to="/productos"><FaPhotoVideo size={'2rem'}/> PRODUCTOS </Link>
-</li> */}

@@ -13,6 +13,7 @@ import ItemsCards_TextoCentral_IngenieriaAgricola from './componentes/ItemsCards
 import ItemsCards_TextoCentral_ConstruccionObrasCiviles from './componentes/ItemsCards_TextoCentral_ConstruccionObrasCiviles'
 import ItemsCards_Nosotros from './componentes/ItemsCards_Nosotros.jsx'
 import ItemsCards_NuestrosClientes from './componentes/ItemsCards_TextoCentral_NuestrosClientes.jsx'
+import ItemsCards_Portafolio from './componentes/ItemsCards_Texto_Portafolio.jsx'                
 
 // import CarrouselTest2 from './componentes/Carrouseltest2'
 // import ItemsCards_TextoIzquierda from './componentes/ItemsCards_TextoIzquierda';
@@ -56,6 +57,7 @@ function App() {
               <Route path='/ConstruccionObrasCiviles' element ={<ItemsCards_TextoCentral_ConstruccionObrasCiviles/>}/>
               <Route path='/Nosotros' element ={<ItemsCards_Nosotros/>}/>
               <Route path='/NuestrosClientes' element ={<ItemsCards_NuestrosClientes/>}/>                            
+              <Route path='/Portafolio' element ={<ItemsCards_Portafolio/>}/>
             </Routes>   
             <PiedePagina/>                 
         </BrowserRouter>

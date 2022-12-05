@@ -37,6 +37,14 @@ h1 {
 }
 
 .fondo-color {
-    background: #16222A;
+    /* background: #16222A; */
     background: linear-gradient(59deg, #3A6073, #16222A);   
 }
+
+/* Item del Menu Principal */
+
+/* .text-item:hover{ */
+.dropdown-item:hover{
+    background-color: red;
+}
+

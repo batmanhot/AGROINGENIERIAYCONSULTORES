@@ -43,9 +43,9 @@ const PiedePagina = () => {
                 <h4>CONTACTO</h4>
                 <ul class="list-unstyled">
                   <div class='footer-contacto'>                    
-                    <li><FaUserTie size={22} class='footer-icono-contacto'/> <a href="#"> Nosotros</a></li>
-                    <li><FaSuitcase size={22} class='footer-icono-contacto'/> <a href="#"> Portafolio</a></li>
-                    <li><FaServicestack size={22} class='footer-icono-contacto'/> <a href="#"> Servicios</a></li>
+                    <li><FaUserTie size={22} class='footer-icono-contacto'/> <a href="/Nosotros"> Nosotros</a></li>
+                    <li><FaSuitcase size={22} class='footer-icono-contacto'/> <a href="/Portafolio"> Portafolio</a></li>
+                    <li><FaServicestack size={22} class='footer-icono-contacto'/> <a href="/"> Servicios</a></li>
                     <li><RiContactsFill size={22} class='footer-icono-contacto'/> <a href="#"> Contacto</a></li>
                   </div>
                 </ul>
