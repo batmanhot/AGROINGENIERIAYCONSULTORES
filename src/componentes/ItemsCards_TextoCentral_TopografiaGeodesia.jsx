@@ -42,7 +42,7 @@ export default function ItemsCards_TextoCentral() {
                                                     
                         </div>
                         <div class="card-footer">
-                            <Button variant="primary">Mas detalles</Button>  
+                            {/* <Button variant="primary">Mas detalles</Button>   */}
                         </div>              
                       </div>
 
@@ -55,7 +55,7 @@ export default function ItemsCards_TextoCentral() {
                           </p>                                        
                         </div>
                           <div class="card-footer">
-                            <Button variant="primary">Mas detalles</Button>
+                            {/* <Button variant="primary">Mas detalles</Button> */}
                           </div>              
                       </div>
                       
@@ -71,7 +71,7 @@ export default function ItemsCards_TextoCentral() {
                           </p>
                         </div>
                         <div class="card-footer">
-                            <Button variant="primary">Mas detalles</Button>
+                            {/* <Button variant="primary">Mas detalles</Button> */}
                           </div>              
                       </div>
 
@@ -85,7 +85,7 @@ export default function ItemsCards_TextoCentral() {
                           </div>
 
                           <div class="card-footer">
-                              <Button variant="primary">Mas detalles</Button>
+                              {/* <Button variant="primary">Mas detalles</Button> */}
                           </div>              
                         </div>
 

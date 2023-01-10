@@ -9,19 +9,21 @@ import {
 } from 'reactstrap';
 
 
-import sembriodefresa  from '../imagen/sembriodefresas.jpg'
-import produccion  from '../imagen/maiz2.jpg'
-import agronoma  from '../imagen/ingenieria-agropecuaria.jpg'
-import edificaciones  from '../imagen/edificaciones.jpg'
-import riegoporgoteo from '../imagen/instalacion de riego por goteo.jpg'
-import topografia  from '../imagen/topografia.jpg'
+import sembriodefresa  from '../imagen/Edificaciones_Carrousel.jpg'
+import produccion  from '../imagen/fresa.jpg'
+import agronoma  from '../imagen/Fresas_Carrousel.JPG'
+import edificaciones  from '../imagen/geodesia.jpg'
+
+import riegoporgoteo from '../imagen/corte segun diseño para instalar tuberia_Carrousel.jpg'
+import topografia  from '../imagen/replanteo para riego tecnificado_Carrousel.jpg'
+import pistas  from '../imagen/Pistas_Carrousel.jpeg'
 
 const items = [
   {
     src: (sembriodefresa),
     altText: 'SEMBRIO DE FRESA',    
-    caption: 'SEMBRIO DE FRESAS CON RIEGO TECNIFICADO',
-    caption_2: 'ASESORIA EN LA PRODUCCION DE CULTIVOS'
+    caption: 'TOPOGRAFIA SUPERFICIAL - EDIFICACIONES',
+    caption_2: 'TOPOGRAFIA SUPERFICIAL'
   },
   {
     src: (produccion),
@@ -38,8 +40,8 @@ const items = [
   {
     src: (edificaciones),
     altText: 'SEMBRIO DE FRESA',
-    caption: 'CONSTRUCCION CIVIL / OBRAS CIVILES',
-    caption_2: 'EDIFICACIONES'    
+    caption: 'GEODESIA',
+    caption_2: 'EDIFICACIONES'
   },
   {
     src: (riegoporgoteo),
@@ -51,6 +53,12 @@ const items = [
     src: (topografia),
     altText: 'TOPOGRAFIA',
     caption: 'MEDICIONES TOPOGRAFICAS',
+    caption_2: 'TOPOGRAFIA SUPERFICIAL Y SUBTERRANEO'    
+  },
+  {
+    src: (pistas),
+    altText: 'PISTAS',
+    caption: 'PISTAS EN CARRETERA',
     caption_2: 'TOPOGRAFIA SUPERFICIAL Y SUBTERRANEO'    
   }
 ];
@@ -111,17 +119,23 @@ class Example extends Component {
         //          </div>
         //    </div>
 
-        >
-          <div class="container-fluid">
-            <div className="col-sm-12 xl-8 md-8 lg-6">
-                <div className="card bg-dark text-white">
-                    <div className="card-body">
-                      <img src={item.src} alt={item.altText} width = "830px" height="490px"/>
-                      <CarouselCaption captionText={item.caption_2} captionHeader={item.caption} /> 
-                    </div>
-                </div>
+        >          
+         <div class='row'>
+            <div class="container-fluid">
+              <div className="col-xs-3 col-sm-4 col-md-8 col-lg-8 col-xl-12">
+                  <div className="card bg-dark text-white rounded-0">
+                      <div className="card-body col-xs-3 col-sm-4 col-md-8 col-lg-8 col-xl-12">
+                      {/* width = "700rem" height="500rem" */}
+                      {/* <img class="img-fluid redondearimagen border-dark text-center" src="https://i.postimg.cc/4xP74R77/Agronomia-cultivo-riegotecnificado.jpg" alt="Card image cap"/> */}
+                        {/* <img class="img-fluid" src={item.src} alt={item.altText} width = "830px" height="490px"/> */}
+                        <img  src={item.src} alt={item.altText} width = "830px" height="550px"/>
+                        <CarouselCaption captionText={item.caption_2} captionHeader={item.caption} /> 
+                      </div>
+                  </div>
+              </div>
             </div>
           </div>
+
           {/* <img src={item.src} alt={item.altText} /> */}
           {/* <CarouselCaption captionText={item.altText} captionHeader={item.caption} /> */}
         </CarouselItem>

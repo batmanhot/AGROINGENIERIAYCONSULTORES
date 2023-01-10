@@ -21,7 +21,7 @@ export default function ItemsCards_TextoCentral() {
               <ImagenPrincipalSeccion /> 
 
               <div class="card bg-dark text-white rounded-0">
-                 <h2 class="card-header titulo1-text">RIEGO TECNIFICADO Y CULTIVO DE FRESAS</h2>
+                 <h2 class="card-header titulo1-text">RIEGO TECNIFICADO</h2>
               </div> 
               
               <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
@@ -36,7 +36,7 @@ export default function ItemsCards_TextoCentral() {
                   </p>                                
                 </div>
                 <div class="card-footer">
-                    <Button variant="primary">Mas detalles</Button>                    
+                    {/* <Button variant="primary">Mas detalles</Button>                     */}
                   </div>              
               </div>
 
@@ -54,7 +54,7 @@ export default function ItemsCards_TextoCentral() {
 
                 </div>
                 <div class="card-footer">
-                  <Button variant="primary">Mas detalles</Button>
+                  {/* <Button variant="primary">Mas detalles</Button> */}
                 </div>              
               </div>              
 
@@ -73,7 +73,7 @@ export default function ItemsCards_TextoCentral() {
 
                 </div>
                 <div class="card-footer">
-                  <Button variant="primary">Mas detalles </Button>
+                  {/* <Button variant="primary">Mas detalles </Button> */}
                   </div>              
               </div>
 
@@ -90,7 +90,7 @@ export default function ItemsCards_TextoCentral() {
                 </div>
 
                 <div class="card-footer">
-                   <Button variant="primary">Mas detalles </Button>
+                   {/* <Button variant="primary">Mas detalles </Button> */}
                   </div>              
               </div>
           </div>

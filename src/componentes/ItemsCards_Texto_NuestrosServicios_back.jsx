@@ -37,12 +37,12 @@ export default function ItemsCards_TextoCircular() {
                 <h2 class="card-header titulo1-text">NUESTROS SERVICIOS</h2>
               </div>
 
-              <div class="order-3 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
 
               <img class="img-fluid redondearimagen border-dark text-center" src="https://i.postimg.cc/4xP74R77/Agronomia-cultivo-riegotecnificado.jpg" alt="Card image cap"/>
               
                 <div class="card-body ColorFondoCard">
-                  <h5 class="card-title shadow-lg p-3 mb-5 rounded shadow-text titulo2-text">INGENIERIA AGRICOLA</h5>
+                  <h5 class="card-title shadow-lg p-3 mb-5 rounded shadow-text titulo2-text">SERVICIO DE INGENIERIA AGRICOLA</h5>
                   <p class="card-text titulo4-text shadow-text texto-justificado ">
                      Asesoramiento y Soporte tecnico en injertos, tuberculos, cultivos de frutas y verduras, asimismo papa, fresas, naranjas, manzana, mandarina, lechugas y zanahorias.
                   </p>
@@ -54,8 +54,7 @@ export default function ItemsCards_TextoCircular() {
               </div>
 
               {/* ----2  */}
-              {/* col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4  */}
-              <div class="order-4 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <div class="card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                   <img class="img-fluid redondearimagen border-5 border-dark" src="https://i.postimg.cc/50DgGWqG/Riego-Tecnificado1.jpg" with="50%" height="30%" alt="Card image cap"/>
                   <div class="card-body">
                     <h5 class="card-title shadow-lg p-3 mb-5 rounded shadow-text titulo2-text">RIEGO TECNIFICADO EN EL SEMBRIO</h5>
@@ -71,10 +70,10 @@ export default function ItemsCards_TextoCircular() {
               </div>
 
               {/* ----3  */}
-              <div class="order-1 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+              <div class="card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                 <img class="img-fluid redondearimagen border-5 border-dark" src="https://i.postimg.cc/505vdQVv/Topografia-Superficial.jpg" with="50%" height="30%" alt="Card image cap"/>                
                 <div class="card-body">
-                  <h5 class="card-title shadow-lg p-3 mb-5 rounded shadow-text titulo2-text">TOPOGRAFIA, GEODESIA</h5>
+                  <h5 class="card-title shadow-lg p-3 mb-5 rounded shadow-text titulo2-text">SERVICIO DE TOPOGRAFIA, GEODESIA</h5>
                   <p class="card-text titulo4-text shadow-text texto-justificado">                
                     Empresa peruana formado con vision de negocio, desarrollo, proactividad para cubrir las necesidades de nuestros clientes en los diferentes rubros y servicios que brindamos y de esta forma fomentamos el crecimiento de nuestro pais.
                   </p>
@@ -85,9 +84,9 @@ export default function ItemsCards_TextoCircular() {
                   </div>              
                 </div>                              
 
-                {/* ---- 4  */}                
-                {/* col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 */}
-                <div class="order-2 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                {/* ---- 4  */}
+                {/* col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-2 */}
+                <div class="card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                   <img class="img-fluid redondearimagen border-5 border-dark" src="https://i.postimg.cc/MHkVfk77/HABILITACION-URBANA1.jpg" with="50%" height="30%" alt="Card image cap"/>                  
                   <div class="card-body">
                     <h5 class="card-title shadow-lg p-3 mb-5 rounded shadow-text titulo2-text">HABILITACION URBANA Y CATASTRO</h5>
@@ -103,8 +102,9 @@ export default function ItemsCards_TextoCircular() {
                   </div>              
                 </div>
 
-                {/* ----5  */}     
-                <div class="order-5 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                {/* ----5  */}
+                {/* col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-2 */}
+                <div class="card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                   <img class="img-fluid redondearimagen border border-5 border-dark" src="https://i.postimg.cc/wjDqYrrc/CONSTRUCCION-CIVIL.jpg" with="50%" height="30%" alt="Card image cap"/>                  
 
                   <div class="card-body">

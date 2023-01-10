@@ -39,7 +39,7 @@ export default function ItemsCards_TextoCentral() {
                                   
                   </div>
                   <div class="card-footer">
-                      <Button variant="primary">Mas detalles</Button>  
+                      {/* <Button variant="primary">Mas detalles</Button>   */}
                     </div>              
                 </div>
 
@@ -55,11 +55,10 @@ export default function ItemsCards_TextoCentral() {
 
                   </div>
                   <div class="card-footer">
-                      <Button variant="primary">Mas detalles</Button>
+                      {/* <Button variant="primary">Mas detalles</Button> */}
                   </div>              
                 </div>
                 
-
                 <div class="card text-card-padding colorfondocardservicios_construccioncivil border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
 
                   <img class="card-img-fluid encuadrarimagen" src={edificaciones} with='50%' height='50%' alt="Card image cap"/>
@@ -76,7 +75,7 @@ export default function ItemsCards_TextoCentral() {
                   </div>
 
                      <div class="card-footer">
-                      <Button variant="primary">Mas detalles</Button>
+                      {/* <Button variant="primary">Mas detalles</Button> */}
                     </div>              
                 </div>                
 
@@ -92,7 +91,7 @@ export default function ItemsCards_TextoCentral() {
                   </div>
 
                     <div class="card-footer">
-                      <Button variant="primary">Mas detalles </Button>
+                      {/* <Button variant="primary">Mas detalles </Button> */}
                     </div>              
                   </div>
 

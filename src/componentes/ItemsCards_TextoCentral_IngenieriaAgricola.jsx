@@ -41,7 +41,7 @@ export default function ItemsCards_IngenieriaAgricola() {
                   
                 </div>
                 <div className="card-footer">
-                    <Button variant="primary">Mas detalles </Button>
+                    {/* <Button variant="primary">Mas detalles </Button> */}
                   </div>              
               </div>
 
@@ -60,7 +60,7 @@ export default function ItemsCards_IngenieriaAgricola() {
                   </p>                            
                 </div>
                 <div className="card-footer">
-                    <Button variant="primary">Mas detalles</Button>
+                    {/* <Button variant="primary">Mas detalles</Button> */}
                   </div>              
               </div>
               
@@ -83,7 +83,7 @@ export default function ItemsCards_IngenieriaAgricola() {
                   </p>
                 </div>
                 <div className="card-footer">
-                    <Button variant="primary">Mas detalles </Button>
+                    {/* <Button variant="primary">Mas detalles </Button> */}
                   </div>              
               </div>
 
@@ -103,7 +103,7 @@ export default function ItemsCards_IngenieriaAgricola() {
                 </div>
 
                 <div class="card-footer">
-                    <Button variant="primary">Mas detalles </Button>
+                    {/* <Button variant="primary">Mas detalles </Button> */}
                   </div>              
               </div>
             </div>    
