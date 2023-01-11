@@ -5,15 +5,21 @@ import { ImLocation, ImInstagram } from "react-icons/im";
 import { FaServicestack, FaSuitcase, FaUserTie } from "react-icons/fa";
 import { RiContactsFill } from "react-icons/ri";
 import { BsFacebook, BsWhatsapp } from "react-icons/bs";
+import imagenwhatsapp  from "../imagen/whatsapp.png"
 
 
 import '../css/Footer.css'
-
+import '../css/Whatsapp.css'
 
 const PiedePagina = () => {
   return (  
   <div>
+       <a href="https://api.Whatsapp.Com/send?phone=51949553216&text=Necesito%20mas%20informacion%20y%20deseo%20realizar%20algunas%20consultas%20.....%20" target="_blank" title="WhatApp - Comuniquese sin compromiso" class="ws-boton">
+          <img class="ws-boton img-fluid" src={imagenwhatsapp} alt="WhatsApp Imagen para Chatear"/>
+        </a>
+
       <footer class="mainfooter" role="contentinfo">
+
         <div class="footer-middle">
         <div class="container">
           <div class="row">
@@ -57,7 +63,7 @@ const PiedePagina = () => {
                   <ul class="social-network social-circle">
                     <li><a href="https://www.facebook.com/JBLASPERU/" class="icoFacebook" title="Facebook"><BsFacebook size={28}/> </a></li>                    
                     <li><a href="https://www.youtube.com/channel/UCN9I8mz5bhpNL3Nuv0CV_Zw" class="icoLinkedin" title="Linkedin"><AiFillLinkedin size={28}/> </a></li>
-                    <li><a href="#" class="icoLinkedin" title="Instagram"><BsWhatsapp size={28}/> </a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=51949553216&text=Me%20interesa%20realizar%20alguna%20consulta%20.....%20" target="_blank"  class="icoLinkedin" title="WhatApp - Comuniquese sin compromiso"><BsWhatsapp size={28}/> </a></li>
                   </ul>               
           </div>
           </div>
