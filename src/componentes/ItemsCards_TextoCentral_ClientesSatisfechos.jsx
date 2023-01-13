@@ -29,7 +29,7 @@ export default function ItemsCards_TextoCentral() {
 
                         <GiMineWagon size={50}/>
 
-                        <h5 class="card-title mt-3 titulo2-text shadow-text text-white" >MINERA CARACOL S.A</h5>
+                        <h5 class="card-title mt-3 titulo2-text shadow-text text-white" >MINERA CARACOL S.A.C</h5>
                         <p class="card-text mt-3 mb-3 titulo4-text shadow-text text-white texto-justificado">
                               Se realizaron trabajos: Poligonal superficial y subterranea para enlazar y ajustar las labores mineras con fines de conexion de labores y explotación minera, ademas de exploraciones.
                               Se realizo poligonales subterraneas por piques, chimeneas, galerias , tajos para proyectar la vetas en los niveles inferiores y superiores.                    
@@ -43,7 +43,7 @@ export default function ItemsCards_TextoCentral() {
                         <h5 class="card-title mt-3 titulo2-text shadow-text text-white">AGRICOLA TAMBILLO SRL</h5>
                         <p class="card-text mt-3 mb-3 titulo4-text shadow-text text-white texto-justificado">
                           Levantamiento topografico de parcelas con fines para proyectos de riego tecnificado a goteo del cultivo de fresas, realizar diseño y planos de distribucion de red de agua y areas de sembrio, por consiguiente la distribucion del H2O sera uniforme.<br/>
-                          Al aplicar la ingenieria en el riego tecnificado perfite una mejor fertilizacion, riego y control de plagas y malesas.<br/>
+                          Al aplicar la ingenieria en el riego tecnificado permite una mejor fertilizacion, riego y control de plagas y malesas.<br/>
                           En resumen levantamiento topográfico y planos de diseño para instalaciones de riego tecnificado  goteo en el cultivo de fresas.
                         </p>              
                       </div>              

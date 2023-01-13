@@ -4,9 +4,9 @@ import { MdEmail } from "react-icons/md";
 import { ImLocation, ImInstagram } from "react-icons/im";
 import { FaServicestack, FaSuitcase, FaUserTie } from "react-icons/fa";
 import { RiContactsFill } from "react-icons/ri";
-import { BsFacebook, BsWhatsapp } from "react-icons/bs";
+import { BsFacebook, BsWhatsapp, BsYoutube} from "react-icons/bs";
 import imagenwhatsapp  from "../imagen/whatsapp.png"
-
+import imagenjblaseirl  from "../imagen/jblaseirl.jpg"
 
 import '../css/Footer.css'
 import '../css/Whatsapp.css'
@@ -28,6 +28,7 @@ const PiedePagina = () => {
               <div class="footer-pad">
                 <h4>NOSOTROS</h4>
                 <p class='footer-nosotros'>Empresa peruana formada con vision de negocio, desarrollo y proactividad para cubrir las necesidades de nuestros clientes en los diferentes rubros y servicios que brindamos y de esta manera fomentamos el crecimiento de nuestro pais.</p>           
+                <p class='footer-nosotros'>Contamos con un equipo de asesores que resolveran tus dudas y cotizaran tus proyectos en base a tus requerimientos.</p>
               </div>
             </div>
 
@@ -38,16 +39,17 @@ const PiedePagina = () => {
                 <div class='footer-ubicacion'>                
                   <p><AiFillPhone size={22} class='footer-icono-ubicacion'/> Telefonos: <br /> 980556159, 949553216</p>  
                   <p><MdEmail  size={22} class='footer-icono-ubicacion'/> Correo Electronico <br /> jblasperu@hotmail.com <br />topblas1@hotmail.com</p>
-                  <p><ImLocation size={22} class='footer-icono-ubicacion'/>Ubicacion : HUARAL - PERU </p>
-                </div>
+                  {/* <p><ImLocation size={22} class='footer-icono-ubicacion'/>Ubicacion : AUCALLAMA - HUARAL - PERU </p> */}
+                  <a href = "https://goo.gl/maps/SVDTBhWzieaXybfe9" target="_blank"  title="Ubicacion Plaza de Armas de Aucallama - HUARAL CITY"><ImLocation size={22} class='footer-icono-ubicacion'/> Ubicacion : AUCALLAMA - HUARAL - PERU </a>              
+                </div>                
               </div>
             </div>
 
             <div class="col-md-3 col-sm-6">
               {/* <!--Column1--> */}
               <div class="footer-pad">
-                <h4>CONTACTO</h4>
-                <ul class="list-unstyled">
+                <h4>CONTACTO</h4>                
+                 <ul class="list-unstyled">
                   <div class='footer-contacto'>                    
                     <li><FaUserTie size={22} class='footer-icono-contacto'/> <a href="/Nosotros"> Nosotros</a></li>
                     <li><FaSuitcase size={22} class='footer-icono-contacto'/> <a href="/Portafolio"> Portafolio</a></li>
@@ -61,15 +63,20 @@ const PiedePagina = () => {
               <h4>SIGUENOS EN NUESTRAS REDES SOCIALES</h4>
                   {/* <ul class="social-network social-circle"> */}
                   <ul class="social-network social-circle">
-                    <li><a href="https://www.facebook.com/JBLASPERU/" class="icoFacebook" title="Facebook"><BsFacebook size={28}/> </a></li>                    
-                    <li><a href="https://www.youtube.com/channel/UCN9I8mz5bhpNL3Nuv0CV_Zw" class="icoLinkedin" title="Linkedin"><AiFillLinkedin size={28}/> </a></li>
+                    <li><a href="https://www.facebook.com/JBLASPERU/" class="icoFacebook" title="Facebook - Vea nuestras publicaciones en nuetra red"><BsFacebook size={28}/> </a></li>                    
+                    <li><a href="https://www.instagram.com/jblasperu/" class="icoLinkedin" title="Linkedin en nuestras publicaciones"><AiFillLinkedin size={28}/> </a></li>
+                    <li><a href="https://www.youtube.com/channel/UCN9I8mz5bhpNL3Nuv0CV_Zw" class="icoLinkedin" title="Youtube - Vea nuestras publicaciones en nuetro canal"><BsYoutube size={28}/> </a></li>
                     <li><a href="https://api.whatsapp.com/send?phone=51949553216&text=Me%20interesa%20realizar%20alguna%20consulta%20.....%20" target="_blank"  class="icoLinkedin" title="WhatApp - Comuniquese sin compromiso"><BsWhatsapp size={28}/> </a></li>
                   </ul>               
           </div>
           </div>
         <div class="row">
           <div class="col-md-12 copy">
-            <p class="text-center">&copy; Derechos de Autor 2022 - JBLAS PERU SAC</p>
+            <p class="text-center">&copy; Derechos de Autor 2022 - JBLAS PERU EIRL <imagenjblaseirl size={22} class='footer-icono-ubicacion'/></p>
+              <img class="img-fluid" src={imagenjblaseirl} alt="WhatsApp Imagen para Chatear" width="80px"/>
+            <br />
+            <br />
+            
           </div>
         </div>
 

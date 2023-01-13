@@ -56,13 +56,17 @@ const  MenuNavbar =() => {
                                     <Link id="item" className="dropdown-item text-item text-white" to='/RiegoTecnificadoFresas'><BsFillDropletFill size= {'1rem'}/> Riego Tecnificado </Link>
                                     <Link id="item" className="dropdown-item text-item text-white" to='/TopografiaGeodesia'><GiPencilRuler size= {'1rem'}/> Topografia y Geodesia </Link>
                                     <Link id="item" className="dropdown-item text-item text-white" to='/ConstruccionObrasCiviles'><MdConstruction size= {'1rem'}/> Construccion </Link>    
-
-                                    <Link id="item" className="dropdown-item text-item text-white" to='/NuestrosClientes'><BsFilePersonFill size= {'1rem'}/> Clientes Satisfechos </Link>
-                                    <Link id="item" className="dropdown-item text-item text-white" to='/Portafolio'><GoBriefcase size= {'1rem'}/> Portafolio </Link>
-                                    <Link id="item" className="dropdown-item text-item text-white" to='#'><MdOutlineContactPhone size= {'1rem'}/> Contacto </Link>
                                 </div>
                             </li>
-                            
+                            <li className="nav-item dropdown">                 
+                                <Link className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 PORTAFOLIO<br/><FaServicestack size= {'2rem'} />                                
+                                </Link>
+                                <div className="dropdown-menu fondo-color" aria-labelledby="navbarDropdownMenuLink">
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/Portafolio'><GoBriefcase size= {'1rem'}/> Portafolio </Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/NuestrosClientes'><BsFilePersonFill size= {'1rem'}/> Clientes Satisfechos </Link>                                                                    
+                                </div>
+                            </li>                            
 
                             <li className="nav-item">
                                 <Link className="nav-link" to='/Nosotros'>NOSOTROS<br/><FaUserTie size= {'2rem'}/></Link>
