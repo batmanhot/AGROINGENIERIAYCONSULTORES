@@ -64,8 +64,9 @@ const  MenuNavbar =() => {
                                 </Link>
                                 <div className="dropdown-menu fondo-color" aria-labelledby="navbarDropdownMenuLink">
                                     <Link id="item" className="dropdown-item text-item text-white" to='/Portafolio'><GoBriefcase size= {'1rem'}/> Portafolio </Link>
-                                    <Link id="item" className="dropdown-item text-item text-white" to='/NuestrosClientes'><BsFilePersonFill size= {'1rem'}/> Clientes Satisfechos </Link>
-                                    <Link id="item" className="dropdown-item text-item text-white" to='/VentaProductos'><BsFilePersonFill size= {'1rem'}/> Venta de Productos </Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/NuestrosClientes'><BsFilePersonFill size= {'1rem'}/>Clientes Satisfechos</Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/VentaProductos'><BsFilePersonFill size= {'1rem'}/>Venta de Productos</Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/Contactos'><BsFilePersonFill size= {'1rem'}/>Contactos</Link>
                                 </div>
                             </li>                            
 

@@ -15,7 +15,7 @@ import ItemsCards_Nosotros from './componentes/ItemsCards_Nosotros.jsx'
 import ItemsCards_NuestrosClientes from './componentes/ItemsCards_TextoCentral_NuestrosClientes.jsx'
 import ItemsCards_Portafolio from './componentes/ItemsCards_Texto_Portafolio.jsx'                
 import ItemsCards_VentaProductos from './componentes/ItemsCards_TextoCentral_VentaProductos.jsx'
-
+import ItemsCards_Contactos from './componentes/ItemsCards_TextoCentral_Contactos.jsx'
 
 // import CarrouselTest2 from './componentes/Carrouseltest2'
 // import ItemsCards_TextoIzquierda from './componentes/ItemsCards_TextoIzquierda';
@@ -27,7 +27,6 @@ import ItemsCards_VentaProductos from './componentes/ItemsCards_TextoCentral_Ven
 // import ItemsCards_TextoCentral_ClientesSatisfechos from './componentes/ItemsCards_TextoCentral_ClientesSatisfechos.jsx'
 // import ItemsCards_TextoSuperpuesto_ImagenPrincipal from './componentes/ItemsCards_TextoSuperpuesto_ImagenPrincipal'
 import HomeWeb from './componentes/pages/home.jsx'
-
 
 
 function App() {
@@ -53,14 +52,15 @@ function App() {
             <MenuNavbar/> 
             <Routes>
               <Route path='/' element = {<HomeWeb/>}/>               
-              <Route path='/IngenieriaAgricola' element ={<ItemsCards_TextoCentral_IngenieriaAgricola/>}/> 
-              <Route path='/RiegoTecnificadoFresas' element ={<ItemsCards_TextoCentral_RiegoTecnificadoFresas/>}/> 
+              <Route path='/IngenieriaAgricola' element ={<ItemsCards_TextoCentral_IngenieriaAgricola/>}/>
+              <Route path='/RiegoTecnificadoFresas' element ={<ItemsCards_TextoCentral_RiegoTecnificadoFresas/>}/>
               <Route path='/TopografiaGeodesia' element ={<ItemsCards_TextoCentral_TopografiaGeodesia/>}/> 
               <Route path='/ConstruccionObrasCiviles' element ={<ItemsCards_TextoCentral_ConstruccionObrasCiviles/>}/>
               <Route path='/Nosotros' element ={<ItemsCards_Nosotros/>}/>
-              <Route path='/NuestrosClientes' element ={<ItemsCards_NuestrosClientes/>}/>                            
+              <Route path='/NuestrosClientes' element ={<ItemsCards_NuestrosClientes/>}/>
               <Route path='/Portafolio' element ={<ItemsCards_Portafolio/>}/>
-              <Route path='/VentaProductos' element ={<ItemsCards_VentaProductos/>}/>           
+              <Route path='/VentaProductos' element ={<ItemsCards_VentaProductos/>}/>
+              <Route path='/Contactos' element ={<ItemsCards_Contactos/>}/>
             </Routes>   
             <PiedePagina/>                 
         </BrowserRouter>

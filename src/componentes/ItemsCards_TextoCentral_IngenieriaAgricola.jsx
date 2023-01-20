@@ -40,9 +40,6 @@ export default function ItemsCards_IngenieriaAgricola() {
                   </p> 
                   
                 </div>
-                <div className="card-footer">
-                    {/* <Button variant="primary">Mas detalles </Button> */}
-                  </div>              
               </div>
 
               {/* --2 */}
@@ -59,9 +56,6 @@ export default function ItemsCards_IngenieriaAgricola() {
                       Sin embargo, en la práctica, este proceso es mucho más complejo y existen diferentes técnicas para lograr que el árbol frutal siga creciendo, dé frutos y sobre todo apuntando a la alta producción.
                   </p>                            
                 </div>
-                <div className="card-footer">
-                    {/* <Button variant="primary">Mas detalles</Button> */}
-                  </div>              
               </div>
               
               {/* --3 */}
@@ -82,9 +76,6 @@ export default function ItemsCards_IngenieriaAgricola() {
                       Este sector es fundamental ya que miles de personas se sustentan de esta actividad. Por esta razón desde hace algunos años ha cobrado gran importancia la prevención. 
                   </p>
                 </div>
-                <div className="card-footer">
-                    {/* <Button variant="primary">Mas detalles </Button> */}
-                  </div>              
               </div>
 
               {/* --4 */}
@@ -102,9 +93,6 @@ export default function ItemsCards_IngenieriaAgricola() {
                   </p>              
                 </div>
 
-                <div class="card-footer">
-                    {/* <Button variant="primary">Mas detalles </Button> */}
-                  </div>              
               </div>
             </div>    
           </div> 

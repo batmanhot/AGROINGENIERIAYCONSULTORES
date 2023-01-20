@@ -12,6 +12,16 @@
     font-style: normal; 
 }
 
+.imagenprin_ventaproductos
+{
+    background: url(../imagen/ImagenPrincipal_VentaProductos.jpg);
+}
+
+.imagenprin_contactos
+{
+    background: url(../imagen/ImagenPrincipal_contactos.jpg);
+}
+
 .imagenprin_agricola
 {
     background: url(../imagen/ImagenPrincipal_Agricola.jpg);
