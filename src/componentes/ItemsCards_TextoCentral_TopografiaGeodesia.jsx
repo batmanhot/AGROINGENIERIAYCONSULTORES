@@ -41,9 +41,8 @@ export default function ItemsCards_TextoCentral() {
                           </p>              
                                                     
                         </div>
-                        <div class="card-footer">
-                            {/* <Button variant="primary">Mas detalles</Button>   */}
-                        </div>              
+                        {/* <div class="card-footer">
+                        </div>               */}
                       </div>
 
                       <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
@@ -54,9 +53,8 @@ export default function ItemsCards_TextoCentral() {
                             Poligonales, control de proyectos mineros, túneles, labores subterráneas, galerías, tajos, rampas, cruceros, chimeneas, marcado y levantamiento de sondajes diamantinos y línea férrea.
                           </p>                                        
                         </div>
-                          <div class="card-footer">
-                            {/* <Button variant="primary">Mas detalles</Button> */}
-                          </div>              
+                          {/* <div class="card-footer">
+                          </div> */}
                       </div>
                       
 
@@ -70,9 +68,8 @@ export default function ItemsCards_TextoCentral() {
                             Topografía con Drones	Levantamiento de terrenos con equipos drones para proyectos de gran envergadura y procesamiento de datos.
                           </p>
                         </div>
-                        <div class="card-footer">
-                            {/* <Button variant="primary">Mas detalles</Button> */}
-                          </div>              
+                          {/* <div class="card-footer">
+                          </div>               */}
                       </div>
 
                         <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-12 col-xl-3">
@@ -84,9 +81,8 @@ export default function ItemsCards_TextoCentral() {
                               </p>                              
                           </div>
 
-                          <div class="card-footer">
-                              {/* <Button variant="primary">Mas detalles</Button> */}
-                          </div>              
+                          {/* <div class="card-footer">
+                          </div> */}
                         </div>
 
                  </div>

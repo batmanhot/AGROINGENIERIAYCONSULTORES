@@ -38,9 +38,8 @@ export default function ItemsCards_TextoCentral() {
                     </p>              
                                   
                   </div>
-                  <div class="card-footer">
-                      {/* <Button variant="primary">Mas detalles</Button>   */}
-                    </div>              
+                  {/* <div class="card-footer">
+                   </div>               */}
                 </div>
 
                 <div class="card text-card-padding colorfondocardservicios_construccioncivil border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
@@ -54,9 +53,8 @@ export default function ItemsCards_TextoCentral() {
                     </p>              
 
                   </div>
-                  <div class="card-footer">
-                      {/* <Button variant="primary">Mas detalles</Button> */}
-                  </div>              
+                  {/* <div class="card-footer">
+                  </div>               */}
                 </div>
                 
                 <div class="card text-card-padding colorfondocardservicios_construccioncivil border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
@@ -74,9 +72,8 @@ export default function ItemsCards_TextoCentral() {
                     </p>                    
                   </div>
 
-                     <div class="card-footer">
-                      {/* <Button variant="primary">Mas detalles</Button> */}
-                    </div>              
+                     {/* <div class="card-footer">
+                    </div>               */}
                 </div>                
 
                 <div class="card text-card-padding colorfondocardservicios_construccioncivil  border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-12 col-xl-3">
@@ -90,9 +87,8 @@ export default function ItemsCards_TextoCentral() {
                     </p>                             
                   </div>
 
-                    <div class="card-footer">
-                      {/* <Button variant="primary">Mas detalles </Button> */}
-                    </div>              
+                    {/* <div class="card-footer">
+                    </div>               */}
                   </div>
 
             </div>

@@ -24,10 +24,11 @@ export default function ItemsCards_TextoCentral() {
                         <h2 class="card-header titulo1-text">CLIENTES SATISFECHOS</h2>
                   </div> 
                     
-                    <div class="card p-4 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">            
-                      <div class="card-body text-card-boxshadow">
+                    <div class="card p-4 colorfondocardservicios_agricola border-2 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">            
+                      <div class="card-body">
+                      {/* text-card-boxshadow */}
 
-                        <GiMineWagon size={50}/>
+                        <GiMineWagon size={60}/>
 
                         <h5 class="card-title mt-3 titulo2-text shadow-text text-white" >MINERA CARACOL S.A.C</h5>
                         <p class="card-text mt-3 mb-3 titulo4-text shadow-text text-white texto-justificado">
@@ -37,9 +38,10 @@ export default function ItemsCards_TextoCentral() {
                       </div>              
                     </div>
 
-                    <div class="card p-4 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                      <div class="card-body text-card-boxshadow">
-                        <MdAgriculture size={50}/>
+                    <div class="card p-4 colorfondocardservicios_agricola border-2 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                      <div class="card-body">
+                      {/* text-card-boxshadow */}
+                        <MdAgriculture size={60}/>
                         <h5 class="card-title mt-3 titulo2-text shadow-text text-white">AGRICOLA TAMBILLO SRL</h5>
                         <p class="card-text mt-3 mb-3 titulo4-text shadow-text text-white texto-justificado">
                           Levantamiento topografico de parcelas con fines para proyectos de riego tecnificado a goteo del cultivo de fresas, realizar diseño y planos de distribucion de red de agua y areas de sembrio, por consiguiente la distribucion del H2O sera uniforme.<br/>
@@ -49,10 +51,11 @@ export default function ItemsCards_TextoCentral() {
                       </div>              
                     </div>
                     
+                    <div class="card p-4 colorfondocardservicios_agricola border-2 rounded-0 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">          
+                      <div class="card-body">
 
-                    <div class="card p-4 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">          
-                      <div class="card-body text-card-boxshadow">
-                        <GrServices size={50}/>
+                       {/* text-card-boxshadow */}
+                        <GrServices size={60}/>
                         <h5 class="card-title mt-3 titulo2-text shadow-text text-white">FAM HOLDING PERU SAC.</h5>
                         <p class="card-text mt-3 mb-3 titulo4-text shadow-text text-white texto-justificado">              
                           Replanteo de ejes y perímetro  para la instalación de módulos de cortes en almacén metal mecánica, montajes de estructurar metálicas.
@@ -60,7 +63,7 @@ export default function ItemsCards_TextoCentral() {
                       </div>             
                     </div>
 
-                    {/* <div class="card p-2 colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">     
+                    {/* <div class="card p-2 colorfondocardservicios_agricola border-2 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">     
                       <div class="card-body">
                         <GiMineWagon size={48}/>
                         <h5 class="card-title mt-3 titulo2-text shadow-text text-white">ASESORÍA TÉCNICA EN PRODUCCIÓN DE CULTIVOS FRUTALES</h5>
