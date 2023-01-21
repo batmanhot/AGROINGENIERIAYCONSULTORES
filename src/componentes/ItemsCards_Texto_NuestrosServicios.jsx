@@ -39,8 +39,7 @@ export default function ItemsCards_TextoCircular() {
               </div>
 
               <div class="order-3 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-
-              {/* <img class="img-fluid redondearimagen border-dark text-center" src="https://i.postimg.cc/4xP74R77/Agronomia-cultivo-riegotecnificado.jpg" alt="Card image cap"/> */}
+              
               <img class="img-fluid redondearimagen border-dark text-center" src={imagen1} alt="Card image cap"/>
               
                 <div class="card-body ColorFondoCard">
@@ -58,7 +57,6 @@ export default function ItemsCards_TextoCircular() {
               {/* ----2  */}
               {/* col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4  */}
               <div class="order-4 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                  {/* <img class="img-fluid redondearimagen border-5 border-dark" src="https://i.postimg.cc/50DgGWqG/Riego-Tecnificado1.jpg" with="50%" height="30%" alt="Card image cap"/> */}
                   <img class="img-fluid redondearimagen border-5 border-dark" src={imagen2} with="50%" height="30%" alt="Card image cap"/>
                   
                   <div class="card-body">
@@ -75,8 +73,7 @@ export default function ItemsCards_TextoCircular() {
               </div>
 
               {/* ----3  */}
-              <div class="order-1 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                {/* <img class="img-fluid redondearimagen border-5 border-dark" src="https://i.postimg.cc/505vdQVv/Topografia-Superficial.jpg" with="50%" height="30%" alt="Card image cap"/>                 */}
+              <div class="order-1 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">                
                 <img class="img-fluid redondearimagen border-5 border-dark" src={imagen3} with="50%" height="30%" alt="Card image cap"/>                
 
                 <div class="card-body">
@@ -93,8 +90,7 @@ export default function ItemsCards_TextoCircular() {
 
                 {/* ---- 4  */}                
                 {/* col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 */}
-                <div class="order-2 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                  {/* <img class="img-fluid redondearimagen border-5 border-dark" src="https://i.postimg.cc/MHkVfk77/HABILITACION-URBANA1.jpg" with="50%" height="30%" alt="Card image cap"/>                   */}
+                <div class="order-2 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">                  
                   <img class="img-fluid redondearimagen border-5 border-dark" src= {imagen4} with="50%" height="30%" alt="Card image cap"/>                  
                   <div class="card-body">
                     <h5 class="card-title shadow-lg p-3 mb-5 rounded shadow-text titulo2-text">HABILITACION URBANA Y CATASTRO</h5>
@@ -111,8 +107,7 @@ export default function ItemsCards_TextoCircular() {
                 </div>
 
                 {/* ----5  */}     
-                <div class="order-5 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                  {/* <img class="img-fluid redondearimagen border border-5 border-dark" src="https://i.postimg.cc/wjDqYrrc/CONSTRUCCION-CIVIL.jpg" with="50%" height="30%" alt="Card image cap"/>                   */}
+                <div class="order-5 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">                  
                   <img class="img-fluid redondearimagen border border-5 border-dark" src={imagen5} with="50%" height="30%" alt="Card image cap"/>                  
 
                   <div class="card-body">
