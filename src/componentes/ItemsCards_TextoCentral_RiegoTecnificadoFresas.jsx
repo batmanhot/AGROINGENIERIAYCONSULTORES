@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-import sembriodefresas from '../imagen/construccion de carreteras.jpg'
+import sembriodefresas from '../imagen/fresa.jpg'
 import riegoporgoteo from '../imagen/riego-por-goteo-valencia.jpg'
 import instalacionderiego from '../imagen/instalacion de riego por goteo.jpg'
 import fresasyelriego from '../imagen/fresasyelriegoporgoteo.jpg'
@@ -32,7 +32,8 @@ export default function ItemsCards_TextoCentral() {
                       El cultivo de fresa es uno de los más importantes a nivel global. De hecho, se cultiva en numerosas partes del mundo y constituye una fuente de ingresos para muchas empresas agrícolas. < br/> 
                       En los últimos veinte años la producción de fresa a nivel mundial ha aumentado de un 83%. < br/>  
                       Los principales países productores son Estados Unidos, Turquía y España seguidos de México, Corea, Egipto y también de Italia que con juntamente componen más del 50% de la producción mundial.< br/> 
-                      La fresa es una planta perenne con la tendencia a la ramificación y un crecimiento arbustivo.                  
+                      En nuestro país el 75% de producción se ubican en el Norte Chico (Barranca, Huaral, Huaura, Huacho), generando fuente de trabajo e ingresos económicos. < br/> 
+                      {/* La fresa es una planta perenne con la tendencia a la ramificación y un crecimiento arbustivo.                   */}
                   </p>                                
                 </div>
                 {/* <div class="card-footer">

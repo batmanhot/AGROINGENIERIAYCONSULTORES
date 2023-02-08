@@ -8,9 +8,8 @@ import {
   CarouselCaption
 } from 'reactstrap';
 
-
-import sembriodefresa  from '../imagen/Edificaciones_Carrousel.jpg'
-import produccion  from '../imagen/fresa.jpg'
+import sembriodefresa  from '../imagen/Topografia_subterranea.jpg'
+import produccion  from '../imagen/Topografia_Drones.JPG'
 import agronoma  from '../imagen/Fresas_Carrousel.JPG'
 import edificaciones  from '../imagen/geodesia.jpg'
 
@@ -22,44 +21,44 @@ const items = [
   {
     src: (sembriodefresa),
     altText: 'SEMBRIO DE FRESA',    
-    caption: 'TOPOGRAFIA SUPERFICIAL - EDIFICACIONES',
-    caption_2: 'TOPOGRAFIA SUPERFICIAL'
+    caption: 'CONTROL Y LEVANTAMIENTO TOPOGRAFICO SUBTERRANEO',
+    caption_2: 'TOPOGRAFIA MINERA'
   },
   {
     src: (produccion),
     altText: 'SEMBRIO DE FRESA',
-    caption: 'ALTA PRODUCCION DE CULTIVOS DE CANTIDAD Y CALIDAD',
-    caption_2: 'ASESORIA PARA LA EXPORTACION'    
+    caption: 'LEVANTAMIENTO TOPOGRÁFICO CON EQUIPOS DRONES',
+    caption_2: 'TOPOGRAFIA CON DRONES'    
   },
   {
     src: (agronoma),
     altText: 'SEMBRIO DE FRESA',
-    caption: 'SERVICIOS DE INGENIERIA AGRICOLA',
-    caption_2: 'TECNICAS DE MEJORAS DE CULTIVOS'    
+    caption: 'ASESORAMIENTO TÉCNICO EN EL CULTIVO Y PRODUCCION DE FRESAS',
+    caption_2: 'SERVICIO DE INGENIERIA AGRICOLA'    
   },
   {
     src: (edificaciones),
     altText: 'SEMBRIO DE FRESA',
-    caption: 'GEODESIA',
-    caption_2: 'EDIFICACIONES'
+    caption: 'PUNTOS GEODESICOS',
+    caption_2: 'GEODESIA'
   },
   {
     src: (riegoporgoteo),
     altText: 'SEMBRIO DE FRESA',
-    caption: 'RIEGO POR GOTEO',
-    caption_2: 'SERVICIO Y ASESORIA EN TECNICAS DE RIEGO POR GOTEO'    
+    caption: 'TRAZO e INSTALACIONES PARA RIEGO POR GOTEO',
+    caption_2: 'SERVICIO Y ASESORIA TECNICA PARA RIEGO TECNIFICADO'    
   },
   {
     src: (topografia),
     altText: 'TOPOGRAFIA',
-    caption: 'MEDICIONES TOPOGRAFICAS',
-    caption_2: 'TOPOGRAFIA SUPERFICIAL Y SUBTERRANEO'    
+    caption: 'LEVANTAMIENTO TOPOGRAFICO DE PARCELAS',
+    caption_2: 'TOPOGRAFIA SUPERFICIAL'    
   },
   {
     src: (pistas),
     altText: 'PISTAS',
-    caption: 'PISTAS EN CARRETERA',
-    caption_2: 'TOPOGRAFIA SUPERFICIAL Y SUBTERRANEO'    
+    caption: 'TRAZO Y REPLANTEO DE CARRETERAS',
+    caption_2: 'TOPOGRAFIA SUPERFICIAL'    
   }
 ];
 

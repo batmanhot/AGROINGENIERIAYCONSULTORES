@@ -12,6 +12,18 @@
     font-style: normal; 
 }
 
+
+.imagenprin_habilitacionurbana
+{
+    background: url(../imagen/ImagenPrincipal_Lotizaciones.jpg);
+}
+
+.imagenprin_tercerizaciones
+{
+    background: url(../imagen/ImagenPrincipal_outsourcing.jpg);
+}
+
+
 .imagenprin_ventaproductos
 {
     background: url(../imagen/ImagenPrincipal_VentaProductos.jpg);

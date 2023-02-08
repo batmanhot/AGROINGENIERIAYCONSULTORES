@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-import maiz from '../imagen/maiz2.jpg'
+import maiz from '../imagen/CultivoFresas.jpg'
 import Agronoma from '../imagen/Agronoma-cultivo-supervisora.jpg'
 import controldeplagas from '../imagen/control de plagas en los cultivos.jpg'
 import injertos from '../imagen/injertos.jpg'

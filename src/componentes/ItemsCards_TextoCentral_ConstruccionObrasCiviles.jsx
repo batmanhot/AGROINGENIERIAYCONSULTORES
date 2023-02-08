@@ -45,11 +45,12 @@ export default function ItemsCards_TextoCentral() {
                 <div class="card text-card-padding colorfondocardservicios_construccioncivil border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <img class="card-img-fluid encuadrarimagen" src={carreteras} with='50%' height='50%' alt="Card image cap"/>
                   <div class="card-body">
-                    <h5 class="card-title titulo2-text text-white shadow-text">CONSTRUCCION DE CARRETERAS</h5>
+                    <h5 class="card-title titulo2-text text-white shadow-text">TRAZO Y CONTROL DE CARRETERAS</h5>
                     <p class="card-text titulo4-text shadow-text text-white texto-justificado">
-                      Con el crecimiento de la población mundial se incrementa también la necesidad de infraestructuras. <br />
-                      Para dar respuesta a los requisitos del tráfico y el transporte modernos, se necesitan fundamentalmente unas superficies para el tráfico duraderas y seguras que se realicen de la forma más rentable y ecológica posible. <br />
-                      La construcción de carreteras y caminos es necesaria debido a que los suelos formados de manera natural son inadecuados como superficie para el tráfico y no pueden cumplir los crecientes requisitos del transporte de personas y mercancías.
+                      Con el crecimiento de la población mundial se incrementa también la necesidad de infraestructuras. <br /><br />
+                      Para dar respuesta a los requisitos del tráfico y el transporte modernos, se necesitan fundamentalmente unas superficies para el tráfico duraderas y seguras que se realicen de la forma más rentable y ecológica posible. <br /> <br />
+                      Es por estas razones que la construcción de carreteras y caminos es necesaria debido a que los suelos formados de manera natural son inadecuados como superficie para el tráfico y no pueden cumplir los crecientes requisitos del transporte de personas y mercancías. <br /> <br />
+                      Frente a este escenario, la importancia del levantamiento topográfico de precisión se vuelve vital, lo cual se realiza el trazo, control, nivelación y replanteo del eje de carretera, cortes y rellenos según la topografía del terreno y obras de arte, respetando el perfil técnico de los proyectos en ejecución <br />                      
                     </p>              
 
                   </div>
@@ -64,11 +65,12 @@ export default function ItemsCards_TextoCentral() {
                   <div class="card-body">
                     <h5 class="card-title titulo2-text text-white shadow-text">EDIFICACIONES</h5>
                     <p class="card-text titulo4-text shadow-text text-white texto-justificado">                  
-                        La edificación se refiere a la construcción de edificios e inmuebles para el resguardo del ser humano.<br />
-                        El ejemplo de edificación más evidente es de las viviendas, las casas en las que habitamos. <br />
-                        Pero en el grupo de edificaciones también entran otras construcciones como los centros comerciales, las iglesias, los edificios de oficinas o los teatros. <br />
-                        Asi tambien estamos en capacidad de participar en licitaciones.<br />
-                        Realmente nos encargamos de todas las fases de una obra ofreciendo soluciones integrales de construcción, contacta con nosotros para cualquier duda que tengas.
+                        La edificación se refiere a la construcción de edificios e inmuebles para el resguardo del ser humano.<br /><br />
+                        El ejemplo de edificación más evidente es de las viviendas, las casas en las que habitamos. <br /><br />
+                        Pero en el grupo de edificaciones también entran otras construcciones como los centros comerciales, las iglesias, los edificios de oficinas o los teatros. <br /><br />
+                        Asi tambien estamos en capacidad de participar en licitaciones.<br /><br />
+                        Realmente nos encargamos de la topografía preliminar, hasta su desarrollo y control de proyectos; por ejemplo: replanteos de ejes, cimentación, perímetro del proyecto, montajes de estructuras metálicas y otros proyectos de ingeniería y arquitectura.
+                        {/* Realmente nos encargamos de todas las fases de una obra ofreciendo soluciones integrales de construcción, contacta con nosotros para cualquier duda que tengas. */}
                     </p>                    
                   </div>
 
@@ -81,8 +83,8 @@ export default function ItemsCards_TextoCentral() {
                   <div class="card-body">
                     <h5 class="card-title titulo2-text text-white shadow-text">CANALES DE IRRIGACION</h5>
                     <p class="card-text titulo4-text shadow-text text-white texto-justificado">
-                        Los canales de riego tienen la función de conducir el agua desde la captación hasta el campo o huerta donde será aplicado a los cultivos. <br />
-                        Son obras de ingeniería importantes, que deben ser cuidadosamente pensadas para no provocar daños al ambiente y para que se gaste la menor cantidad de agua posible. <br />
+                        Los canales de riego tienen la función de conducir el agua desde la captación hasta el campo o huerta donde será aplicado a los cultivos. <br /><br />
+                        Son obras de ingeniería importantes, que deben ser cuidadosamente pensadas para no provocar daños al ambiente y para que se gaste la menor cantidad de agua posible. <br /><br />
                         Están estrechamente vinculados a las características del terreno, generalmente siguen aproximadamente las curvas de nivel de este, descendiendo suavemente hacia cotas más bajas (dándole una pendiente descendente, para que el agua fluya más rápidamente).
                     </p>                             
                   </div>

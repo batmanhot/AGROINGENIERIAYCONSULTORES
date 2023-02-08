@@ -45,7 +45,8 @@ export default function ItemsCards_TextoCircular() {
                 <div class="card-body ColorFondoCard">
                   <h5 class="card-title shadow-lg p-3 mb-5 rounded shadow-text titulo2-text">INGENIERIA AGRICOLA</h5>
                   <p class="card-text titulo4-text shadow-text texto-justificado ">
-                     Asesoramiento y Soporte tecnico en injertos, tuberculos, cultivos de frutas y verduras, asimismo papa, fresas, naranjas, manzana, mandarina, lechugas y zanahorias.
+                     {/* Asesoramiento y Soporte tecnico en injertos, tuberculos, cultivos de frutas y verduras, asimismo papa, fresas, naranjas, manzana, mandarina, lechugas y zanahorias. */}
+                     Asesoramiento y soporte técnico en el cultivo de fresas, tubérculos, frutas y verduras, además injertos de plantaciones y lo relacionado al agro.
                   </p>
                 </div>
                 <div class="card-footer text-primary  ">                                        
@@ -54,16 +55,18 @@ export default function ItemsCards_TextoCircular() {
                   </div>              
               </div>
 
-              {/* ----2  */}
-              {/* col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4  */}
+              {/* ----2  */}              
               <div class="order-4 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                   <img class="img-fluid redondearimagen border-5 border-dark" src={imagen2} with="50%" height="30%" alt="Card image cap"/>
                   
                   <div class="card-body">
                     <h5 class="card-title shadow-lg p-3 mb-5 rounded shadow-text titulo2-text">RIEGO TECNIFICADO EN EL SEMBRIO</h5>
                     <p class="card-text titulo4-text shadow-text texto-justificado">
-                      Levantamiento topografico e instalacion de tuberias para riego tecnificado por goteo, cultivo y produccion, en los valles Huaral, Huaral y Chancay. <br/>
-                      Elaboración de planos, instalación de tuberías para riego tecnificado, asesoramiento técnico y preparación de terreno para sembrío.
+                      {/* Levantamiento topografico e instalacion de tuberias para riego tecnificado por goteo, cultivo y produccion, en los valles Huaral, Huaral y Chancay. <br/>
+                      Elaboración de planos, instalación de tuberías para riego tecnificado, asesoramiento técnico y preparación de terreno para sembrío. */}
+
+                      Asesoramiento técnico, Levantamiento topográfico de parcelas y elaboración de planos, diseño e instalación de tuberías para riego tecnificado por goteo, preparación del terreno para sembrío, cultivo y producción de fresas. 
+
                     </p>                              
                   </div>
                   <div class="card-footer">
@@ -79,7 +82,10 @@ export default function ItemsCards_TextoCircular() {
                 <div class="card-body">
                   <h5 class="card-title shadow-lg p-3 mb-5 rounded shadow-text titulo2-text">TOPOGRAFIA, GEODESIA</h5>
                   <p class="card-text titulo4-text shadow-text texto-justificado">                
-                    Empresa peruana formado con vision de negocio, desarrollo, proactividad para cubrir las necesidades de nuestros clientes en los diferentes rubros y servicios que brindamos y de esta forma fomentamos el crecimiento de nuestro pais.
+                    {/* Empresa peruana formado con vision de negocio, desarrollo, proactividad para cubrir las necesidades de nuestros clientes en los diferentes rubros y servicios que brindamos y de esta forma fomentamos el crecimiento de nuestro pais. */}
+                    {/* La topografía es importante para todos los proyectos de ingeniería y arquitectura, nuestros profesionales están capacitados y preparados para realizar un trabajo de precisión y calidad. */}
+                    Somos especialistas en topografía subterránea y a tajo abierto, montaje de estructuras, peritaje topográfico, topografía ferroviaria, topografía con drones y geodesia, desarrollando una serie de trabajos: levantamiento topográfico, poligonales, gradientes, dirección y control de proyectos de labores mineras, 
+                    marcado de sondajes diamantinos, replanteos perimétrico de propiedades, denuncios, parcelas, control de taludes, accesos, banquetas, cubicaciones de movimiento de tierra, posicionamiento de puntos geodésicos y mediciones en modo RTK, control de proyectos de línea férrea para el tránsito de trenes y locomotoras en minería subterránea, nivelación y trazo de carreteras, alcantarillado y canales de regadío. 
                   </p>
                 </div>
                  <div class="card-footer">
@@ -88,8 +94,7 @@ export default function ItemsCards_TextoCircular() {
                   </div>              
                 </div>                              
 
-                {/* ---- 4  */}                
-                {/* col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 */}
+                {/* ---- 4  */}                                
                 <div class="order-2 card p-2 colorfondocard text-white border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">                  
                   <img class="img-fluid redondearimagen border-5 border-dark" src= {imagen4} with="50%" height="30%" alt="Card image cap"/>                  
                   <div class="card-body">
@@ -97,12 +102,13 @@ export default function ItemsCards_TextoCircular() {
                     <p class="card-text titulo4-text shadow-text texto-justificado">                                  
                       Es el proceso administrativo de cambiar un terreno rustico o eriazo a urbano, mediante obras de accesibilidad, agua potable, alcantarillado, luz eléctrica; elaborando los documentos o trabajos de ingeniería para cumplir con la normativa establecida. <br/>
                       Proyectos y Expedientes Técnicos, Planos de Independización y Lotizaciones.
+                      Tiene como propósito principal la ubicación, regularización y registro de bienes inmuebles de uso múltiple
                     </p>                    
                   </div>
 
                   <div class="card-footer">
                       {/* <a href="#" class="card-link">Link al Grupo de Noticias</a> */}
-                      <Link className="nav-link demo-text text-white pl-2" to='/'><AiTwotoneContainer size= {'2rem'}/> Ver mas </Link>                       
+                      <Link className="nav-link demo-text text-white pl-2" to='/HabilitacionUrbana'><AiTwotoneContainer size= {'2rem'}/> Ver mas </Link>                       
                   </div>              
                 </div>
 

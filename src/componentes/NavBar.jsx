@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaUserTie, FaServicestack } from 'react-icons/fa'
-import { AiFillHome } from  'react-icons/ai'
-import { MdConstruction, MdAgriculture, MdOutlineContactPhone }  from 'react-icons/md'
+import { AiFillHome, AiFillBook, AiFillSnippets } from  'react-icons/ai'
+import { MdConstruction, MdAgriculture, MdPointOfSale, MdOutlineContactPhone }  from 'react-icons/md'
 import { GiPencilRuler } from 'react-icons/gi'
-import { BsFillDropletFill, BsFilePersonFill } from 'react-icons/bs'
+import { BsFillDropletFill, BsFilePersonFill, BsFillBookmarkCheckFill,  } from 'react-icons/bs'
 import { GoBriefcase } from 'react-icons/go'
 
 import loguito from '../imagen/LOGO SIN FONDO.png'
@@ -52,10 +52,12 @@ const  MenuNavbar =() => {
                                  SERVICIOS<br/><FaServicestack size= {'2rem'} />                                
                                 </Link>
                                 <div className="dropdown-menu fondo-color" aria-labelledby="navbarDropdownMenuLink">
-                                    <Link id="item" className="dropdown-item text-item text-white" to='/IngenieriaAgricola'><MdAgriculture size= {'1rem'}/> Ingenieria Agricola </Link>
-                                    <Link id="item" className="dropdown-item text-item text-white" to='/RiegoTecnificadoFresas'><BsFillDropletFill size= {'1rem'}/> Riego Tecnificado </Link>
                                     <Link id="item" className="dropdown-item text-item text-white" to='/TopografiaGeodesia'><GiPencilRuler size= {'1rem'}/> Topografia y Geodesia </Link>
-                                    <Link id="item" className="dropdown-item text-item text-white" to='/ConstruccionObrasCiviles'><MdConstruction size= {'1rem'}/> Construccion </Link>    
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/ConstruccionObrasCiviles'><MdConstruction size= {'1rem'}/> Construccion y Obras Civiles</Link>    
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/HabilitacionUrbana'><AiFillBook size= {'1rem'}/> Habilitacion Urbana y Catastro </Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/Tercerizaciones'><AiFillSnippets size= {'1rem'}/> Tercerizaciones </Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/IngenieriaAgricola'><MdAgriculture size= {'1rem'}/> Ingenieria Agricola </Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/RiegoTecnificadoFresas'><BsFillDropletFill size= {'1rem'}/> Riego Tecnificado </Link>                                    
                                 </div>
                             </li>
                             <li className="nav-item dropdown">                 
@@ -64,8 +66,8 @@ const  MenuNavbar =() => {
                                 </Link>
                                 <div className="dropdown-menu fondo-color" aria-labelledby="navbarDropdownMenuLink">
                                     <Link id="item" className="dropdown-item text-item text-white" to='/Portafolio'><GoBriefcase size= {'1rem'}/> Portafolio </Link>
-                                    <Link id="item" className="dropdown-item text-item text-white" to='/NuestrosClientes'><BsFilePersonFill size= {'1rem'}/>Clientes Satisfechos</Link>
-                                    <Link id="item" className="dropdown-item text-item text-white" to='/VentaProductos'><BsFilePersonFill size= {'1rem'}/>Venta de Productos</Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/NuestrosClientes'><BsFillBookmarkCheckFill size= {'1rem'}/>Clientes Satisfechos</Link>
+                                    <Link id="item" className="dropdown-item text-item text-white" to='/VentaProductos'><MdPointOfSale size= {'1rem'}/>Venta de Productos</Link>
                                     <Link id="item" className="dropdown-item text-item text-white" to='/Contactos'><BsFilePersonFill size= {'1rem'}/>Contactos</Link>
                                 </div>
                             </li>                            

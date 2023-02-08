@@ -68,15 +68,15 @@ export default function ImagenPrincipalSeccion() {
 
                                 <ol class="div-listaenumerada">
                                   <li>Mineria</li>
-                                  <li>Geologia y Geografia </li>
+                                  <li>Geologia</li>
                                   <li>Topografia Superficial y Subterranea </li>
                                   <li>Geodesia </li>
                                   <li>Catastro, Lotizaciones y Habilitacion Urbana </li>
                                   <li>Proyectos y Expedientes Tecnicos </li>
                                   <li>Ingenieria Civil y Construccion</li>
                                   <li>Comercio</li>
-                                  <li>Agricola</li>
-                                  <li>Transporte</li>
+                                  <li>Ingeniería Agrícola</li>                                  
+                                  <li>Instalación y Riego Tecnificado en el cultivo de fresas</li>                                  
                                 </ol>                              
                           </div>                             
                         </div>                                                                     

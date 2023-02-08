@@ -16,6 +16,8 @@ import ItemsCards_NuestrosClientes from './componentes/ItemsCards_TextoCentral_N
 import ItemsCards_Portafolio from './componentes/ItemsCards_Texto_Portafolio.jsx'                
 import ItemsCards_VentaProductos from './componentes/ItemsCards_TextoCentral_VentaProductos.jsx'
 import ItemsCards_Contactos from './componentes/ItemsCards_TextoCentral_Contactos.jsx'
+import ItemsCards_Tercerizaciones from './componentes/ItemsCards_Tercerizaciones.jsx'
+import ItemsCards_HabilitacionUrbana from './componentes/ItemsCards_TextoCentral_HabilitacionUrbana.jsx'
 
 // import CarrouselTest2 from './componentes/Carrouseltest2'
 // import ItemsCards_TextoIzquierda from './componentes/ItemsCards_TextoIzquierda';
@@ -61,6 +63,8 @@ function App() {
               <Route path='/Portafolio' element ={<ItemsCards_Portafolio/>}/>
               <Route path='/VentaProductos' element ={<ItemsCards_VentaProductos/>}/>
               <Route path='/Contactos' element ={<ItemsCards_Contactos/>}/>
+              <Route path='/Tercerizaciones' element ={<ItemsCards_Tercerizaciones/>}/>
+              <Route path='/HabilitacionUrbana' element ={<ItemsCards_HabilitacionUrbana/>}/>              
             </Routes>   
             <PiedePagina/>                 
         </BrowserRouter>

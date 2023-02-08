@@ -38,7 +38,7 @@ export default function ItemsCards_TextoCentral() {
 
                   <h5 class="mt-3 card-title titulo2-text text-white shadow-text">PRODUCTOS AGRICOLAS</h5>
                   <p class="card-text titulo4-text shadow-text text-white texto-justificado">
-                      Frutas Verduras y Cereales: Lechugas, Zanahoria, Papas, Fresas, Manzana, Naranja y otros de produccion local Huaral . < br/>                          
+                      Frutas Verduras y Cereales: Lechugas, Zanahoria, Papas, Fresas, Manzana, Naranja y otros de produccion local. < br/>                          
                   </p>                                
                 </div>                
               </div>

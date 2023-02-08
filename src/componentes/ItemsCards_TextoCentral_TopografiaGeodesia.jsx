@@ -28,7 +28,7 @@ export default function ItemsCards_TextoCentral() {
                       <ImagenPrincipalSeccion /> 
 
                       <div class="card bg-dark text-white rounded-0">
-                        <h2 class="card-header titulo1-text">TOPOGRAFIA, GEODESIA Y CATASTRO</h2>
+                        <h2 class="card-header titulo1-text">TOPOGRAFIA, GEODESIA</h2>
                       </div>        
 
                       
@@ -65,7 +65,7 @@ export default function ItemsCards_TextoCentral() {
                         <div class="card-body">
                           <h5 class="card-title titulo2-text text-white shadow-text">TOPOGRAFIA CON DRONES</h5>
                           <p class="card-text titulo4-text shadow-text text-white texto-justificado">
-                            Topografía con Drones	Levantamiento de terrenos con equipos drones para proyectos de gran envergadura y procesamiento de datos.
+                            Levantamiento de terrenos con equipos drones para proyectos de gran envergadura y procesamiento de datos.
                           </p>
                         </div>
                           {/* <div class="card-footer">

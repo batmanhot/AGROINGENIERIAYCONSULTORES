@@ -8,23 +8,18 @@ export default function ImagenPrincipalSeccion() {
             <div class='row'> 
               {/* imagenprin_ingenieriaagricola */}
               <div class="overlay-dark bg-cover bg-center p-5 imagenprin_contactos" >
-                  <div class="overlay-content text-white text-center p-1">
-                     
-                     {/* <h2>Dark transparent overlay</h2> */}
-                     <br />
-                     <br /> 
-                     <br />
-                     <br /> 
-                     <br />
-                     <br /> 
 
-                     {/* <div  >                           
-                        <p class="demo-text"> 
-                            Te ofrecemos manejo integrado de plagas, gestion y manejo de suelo, rotacion de cultivos, estan son practicas significativas en las actividades de produccion agricola. <br />
-                            El sector Agropecuario tien una serie de practicas que hacen posible usar los recursos  de forma eficiente y minimizan los impactos ambientales y busca las sostenibilidad mediante las practicas responsables.
-                         </p> 
+                    <div class="overlay-content text-white text-center w-100 h-100 ">                                   
+                      {/* <div class='align-items-center bg-secondary w-50 border border-dark'>                      
                      </div>  */}
                   </div>
+
+                  {/* <div class="overlay-content text-white text-center bg-secondary">                                   
+                    <p class="demo-text text-white">                          
+                          Contamos con un equipo de profesionales calificados que resolverán tus interrogantes y que te brindarán las cotizaciones más bajas del mercado de nuestros servicios para todos nuestros clientes. < br/>
+                          Nuestra experiencia, conocimiento y valores garantizan nuestra CALIDAD y CONFIANZA. 
+                      </p>                                              
+                  </div> */}
               </div>
             </div>
         </div>
