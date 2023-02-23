@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.eaed8573.css",
-    "main.js": "/static/js/main.a996e96a.js",
+    "main.css": "/static/css/main.1768d966.css",
+    "main.js": "/static/js/main.93904968.js",
     "static/js/787.0115d616.chunk.js": "/static/js/787.0115d616.chunk.js",
     "static/media/ImagenPrincipal_Construccion.jpg": "/static/media/ImagenPrincipal_Construccion.8539c8cd9aafbbdcd2d3.jpg",
     "static/media/ImagenPrincipal_VentaProductos.jpg": "/static/media/ImagenPrincipal_VentaProductos.a1825bc6ed4764f102ec.jpg",
@@ -20,7 +20,6 @@
     "static/media/HabilitacionUrbana.jpg": "/static/media/HabilitacionUrbana.bc6b4610fd997410e3f8.jpg",
     "static/media/corte segun diseño para instalar tuberia_Carrousel.jpg": "/static/media/corte segun diseño para instalar tuberia_Carrousel.abf5294282dcb72fe37d.jpg",
     "static/media/Agronomia-cultivo-riegotecnificado.jpg": "/static/media/Agronomia-cultivo-riegotecnificado.d933a40edf3adc49d55b.jpg",
-    "static/media/geodesia.jpg": "/static/media/geodesia.45e44738a5052fb72f9c.jpg",
     "static/media/fresa.jpg": "/static/media/fresa.0335fc8a7e1eab7d46a3.jpg",
     "static/media/jblaseirl.jpg": "/static/media/jblaseirl.95b587e11ecd62fbe98f.jpg",
     "static/media/whatsapp.png": "/static/media/whatsapp.6f2d8f00fe5f5b8216df.png",
@@ -30,11 +29,12 @@
     "static/media/construccion de carreteras.jpg": "/static/media/construccion de carreteras.6f70fecef9ec97db0b4a.jpg",
     "static/media/Topografia_subterranea.jpg": "/static/media/Topografia_subterranea.f941afc4000a393aef78.jpg",
     "static/media/ImagenPrincipal_outsourcing.jpg": "/static/media/ImagenPrincipal_outsourcing.0e939b69c7a032f90582.jpg",
+    "static/media/Fresas_Carrousel.JPG": "/static/media/Fresas_Carrousel.1d356d8831dae9f6bb62.JPG",
     "static/media/Topografia-Superficial.jpg": "/static/media/Topografia-Superficial.5d6619e02006eea0d28b.jpg",
     "static/media/PlanosLotizaciones.jpg": "/static/media/PlanosLotizaciones.98d484ffdb71ecb17930.jpg",
-    "static/media/Fresas_Carrousel.JPG": "/static/media/Fresas_Carrousel.621b61856404eee8db2d.JPG",
     "static/media/fresasyelriegoporgoteo.jpg": "/static/media/fresasyelriegoporgoteo.501424a1c823c56a496d.jpg",
     "static/media/TopografiaconDrones.jpg": "/static/media/TopografiaconDrones.b417e1cf7310bcf6da5e.jpg",
+    "static/media/geodesia.jpg": "/static/media/geodesia.78308f04bc26ded20e72.jpg",
     "static/media/CultivoFresas.jpg": "/static/media/CultivoFresas.d26c9f95cbdc47fd39b0.jpg",
     "static/media/CONSTRUCCION-CIVIL.jpg": "/static/media/CONSTRUCCION-CIVIL.136a7995d9ab8ddb52fa.jpg",
     "static/media/ImagenPrincipal_Lotizaciones.jpg": "/static/media/ImagenPrincipal_Lotizaciones.2105890e99fcee5b0389.jpg",
@@ -50,12 +50,12 @@
     "static/media/HABILITACION-URBANA1.jpg": "/static/media/HABILITACION-URBANA1.5b441ed8354770079a27.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.eaed8573.css.map": "/static/css/main.eaed8573.css.map",
-    "main.a996e96a.js.map": "/static/js/main.a996e96a.js.map",
+    "main.1768d966.css.map": "/static/css/main.1768d966.css.map",
+    "main.93904968.js.map": "/static/js/main.93904968.js.map",
     "787.0115d616.chunk.js.map": "/static/js/787.0115d616.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaed8573.css",
-    "static/js/main.a996e96a.js"
+    "static/css/main.1768d966.css",
+    "static/js/main.93904968.js"
   ]
 }
