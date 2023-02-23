@@ -18,16 +18,6 @@ import ItemsCards_VentaProductos from './componentes/ItemsCards_TextoCentral_Ven
 import ItemsCards_Contactos from './componentes/ItemsCards_TextoCentral_Contactos.jsx'
 import ItemsCards_Tercerizaciones from './componentes/ItemsCards_Tercerizaciones.jsx'
 import ItemsCards_HabilitacionUrbana from './componentes/ItemsCards_TextoCentral_HabilitacionUrbana.jsx'
-
-// import CarrouselTest2 from './componentes/Carrouseltest2'
-// import ItemsCards_TextoIzquierda from './componentes/ItemsCards_TextoIzquierda';
-// import ItemsCards_TextoCentral from './componentes/ItemsCards_TextoCentral'
-// import ItemsCards_TextoCircular  from './componentes/ItemsCards_TestoCircular'
-// import ItemsCards_TextoSuperpuesto from './componentes/ItemsCards_TextoSuperpuesto'
-
-// import ItemsCards_Texto_NuestrosServicios from './componentes/ItemsCards_Texto_NuestrosServicios'
-// import ItemsCards_TextoCentral_ClientesSatisfechos from './componentes/ItemsCards_TextoCentral_ClientesSatisfechos.jsx'
-// import ItemsCards_TextoSuperpuesto_ImagenPrincipal from './componentes/ItemsCards_TextoSuperpuesto_ImagenPrincipal'
 import HomeWeb from './componentes/pages/home.jsx'
 
 

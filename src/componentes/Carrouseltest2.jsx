@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import '../css/carrousel.css'
 import '../css/NuestroServicio.css'
@@ -122,9 +121,9 @@ class Example extends Component {
         //          </div>
         //    </div>
 
-        >          
-         {/* <div class='container'> */}
-            <div class="row">
+        >
+
+           <div class="row">
               {/* <div className="col-xs-10 col-sm-12 col-md-12 col-lg-12 col-xl-12"> */}
                   <div className="card bg-dark text-white rounded-0">
                       <div className="card-body">
@@ -133,24 +132,24 @@ class Example extends Component {
                         {/* 830 * 490 */}
                         {/* <img src={item.src} alt={item.altText} width = "550px" height="650px" className="col-xs-10 col-sm-10 col-md-10 col-lg-8 col-xl-8"/> */}
                         {/* <img src={item.src} alt={item.altText} width = "520rem" height="40rem"/> */}
-                          <center>
-                            <img class="d-flex fluid w-60 border border-3 border-white col-xs-12 col-sm-12 col-md-10 col-lg-8 col-xl-8" 
+
+                           <center> 
+                           <div className='margin-0 d-flex justify-content-center align-items-center bg-info  border border-3 col-xs-12 col-sm-12 col-md-10 col-lg-8 col-xl-8'> 
+                            <img class="w-60 border border-3 border-white " 
                              src={item.src} 
                              alt={item.altText}
-                             height="650px"/>
-                          </center>
+                             width="750px"
+                             height="650px" />
+                           </div >
+                          </center> 
 
                           <div className="card-text">                             
-                            {/* <p class="titulo2-text">{item.caption_2}</p>
-                            <p class="titulo2-text">{item.caption}</p>  */}
-                            <CarouselCaption className="demo-carousel" captionText={item.caption_2} captionHeader={item.caption} /> 
-                            
-                          
+                            <CarouselCaption className="demo-carousel" captionText={item.caption_2} captionHeader={item.caption} />
                           </div>
                       </div>
                   </div>                               
             </div>
-          {/* </div> */}
+
 
           {/* <img src={item.src} alt={item.altText} /> */}
           {/* <CarouselCaption captionText={item.altText} captionHeader={item.caption} /> */}
