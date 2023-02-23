@@ -99,3 +99,27 @@ Extra extra large	xxl	≥1400px
 .margin-0 {
   margin: 0 !important;
 }
+
+#servicios-icono-efecto:hover{
+  transition: all 300ms ease-out;  
+  transform:scale(1.1) ;   
+  overflow:inherit;
+}
+ 
+#servicios-icono-efecto:hover{
+  transition: all 300ms ease-out;  
+  transform:scale(1.1) ;   
+} 
+
+/* #contenedor-imagen:hover{
+  transform:scale(1.1);
+} */
+
+/* #contenedor-imagen{
+  overflow:hidden; 
+  transition: width 2s, height 2s, transform 2s;
+} */
+
+/* .contenedor:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.contenedor {overflow:hidden;} */
+

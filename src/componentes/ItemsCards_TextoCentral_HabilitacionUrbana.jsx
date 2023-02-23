@@ -42,7 +42,7 @@ export default function ItemsCards_IngenieriaAgricola() {
 
               {/* --2 */}
               <div className="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                <img className="card-img-fluid encuadrarimagen" src={habilitacionurbana} with='50%' height='50%' alt="Card image cap"/>
+                <img id="servicios-icono-efecto" className="card-img-fluid encuadrarimagen" src={habilitacionurbana} with='50%' height='50%' alt="Card image cap"/>
                 <div className="card-body">
                   <h5 className="card-title titulo2-text text-white shadow-text">PLANOS DE LOTIZACION UBICACION y PERIMETRICO</h5>
                   
@@ -57,7 +57,7 @@ export default function ItemsCards_IngenieriaAgricola() {
 
               <div className="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0  col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
 
-                <img className="card-img-fluid encuadrarimagen" src={planoslotizaciones} with='50%' height='50%' alt="Card image cap"/>
+                <img id="servicios-icono-efecto" className="card-img-fluid encuadrarimagen" src={planoslotizaciones} with='50%' height='50%' alt="Card image cap"/>
 
                 <div className="card-body">
                   <h5 className="card-title titulo2-text shadow-text text-white">LOTIZACIONES Y HABILITACION URBANA</h5>

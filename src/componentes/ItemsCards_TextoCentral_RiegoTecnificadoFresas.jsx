@@ -25,7 +25,7 @@ export default function ItemsCards_TextoCentral() {
               </div> 
               
               <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                <img class="card-img-fluid encuadrarimagen" src={sembriodefresas}  with='50%' height='50%' alt="Card image cap"/>
+                <img id="servicios-icono-efecto" class="card-img-fluid encuadrarimagen" src={sembriodefresas}  with='50%' height='50%' alt="Card image cap"/>
                 <div class="card-body">
                   <h5 class="card-title titulo2-text text-white shadow-text">SEMBRIO DE FRESAS</h5>
                   <p class="card-text titulo4-text shadow-text text-white texto-justificado">
@@ -41,7 +41,7 @@ export default function ItemsCards_TextoCentral() {
               </div>
 
               <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                <img class="card-img-fluid encuadrarimagen" src={fresasyelriego} with='50%' height='50%' alt="Card image cap"/>
+                <img  id="servicios-icono-efecto" class="card-img-fluid encuadrarimagen" src={fresasyelriego} with='50%' height='50%' alt="Card image cap"/>
                 <div class="card-body">
                   <h5 class="card-title titulo2-text text-white shadow-text">LAS FRESAS Y EL RIEGO POR GOTEO</h5>
                   <p class="card-text titulo4-text shadow-text text-white texto-justificado">              
@@ -59,7 +59,7 @@ export default function ItemsCards_TextoCentral() {
 
               <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
 
-                <img class="card-img-fluid encuadrarimagen" src={riegoporgoteo} with='50%' height='50%' alt="Card image cap"/>
+                <img id="servicios-icono-efecto" class="card-img-fluid encuadrarimagen" src={riegoporgoteo} with='50%' height='50%' alt="Card image cap"/>
 
                 <div class="card-body">
                   <h5 class="card-title titulo2-text text-white shadow-text">MAYOR RENDIMIENTO Y CALIDAD DE LA FRESA CON EL RIEGO POR GOTEO</h5>
@@ -76,7 +76,7 @@ export default function ItemsCards_TextoCentral() {
               </div>
 
               <div class="card text-card-padding colorfondocardservicios_agricola border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-12 col-xl-3">
-                <img class="card-img-fluid encuadrarimagen" src={instalacionderiego} with='50%' height='50%' alt="Card image cap"/>
+                <img id="servicios-icono-efecto" class="card-img-fluid encuadrarimagen" src={instalacionderiego} with='50%' height='50%' alt="Card image cap"/>
                 <div class="card-body">
                   <h5 class="card-title titulo2-text text-white shadow-text">INSTALACIÓN DE RIEGO POR GOTEO</h5>
                   <p class="card-text titulo4-text shadow-text text-white texto-justificado">

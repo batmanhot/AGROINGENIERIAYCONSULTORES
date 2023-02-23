@@ -29,8 +29,8 @@ export default function ItemsCards_TextoCentral() {
                    <h2 class="card-header titulo1-text">CONSTRUCCIONES Y OBRAS CIVILES</h2>
                  </div> 
                                   
-                <div class="card text-card-padding colorfondocardservicios_construccioncivil border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <img class="card-img-fluid encuadrarimagen" src={controldeproyectos}  with='50%' height='50%' alt="Card image cap"/>
+                <div class="card text-card-padding colorfondocardservicios_construccioncivil border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">                  
+                    <img id="servicios-icono-efecto" class="card-img-fluid encuadrarimagen" src={controldeproyectos}  with='50%' height='50%' alt="Card image cap"/>                  
                   <div class="card-body">
                     <h5 class="card-title titulo2-text text-white shadow-text">CONTROL DE PROYECTOS DE OBRAS CIVILES</h5>
                     <p class="card-text titulo4-text shadow-text text-white texto-justificado">
@@ -38,12 +38,10 @@ export default function ItemsCards_TextoCentral() {
                     </p>              
                                   
                   </div>
-                  {/* <div class="card-footer">
-                   </div>               */}
                 </div>
 
                 <div class="card text-card-padding colorfondocardservicios_construccioncivil border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <img class="card-img-fluid encuadrarimagen" src={carreteras} with='50%' height='50%' alt="Card image cap"/>
+                  <img id="servicios-icono-efecto" class="card-img-fluid encuadrarimagen" src={carreteras} with='50%' height='50%' alt="Card image cap"/>
                   <div class="card-body">
                     <h5 class="card-title titulo2-text text-white shadow-text">TRAZO Y CONTROL DE CARRETERAS</h5>
                     <p class="card-text titulo4-text shadow-text text-white texto-justificado">
@@ -54,13 +52,11 @@ export default function ItemsCards_TextoCentral() {
                     </p>              
 
                   </div>
-                  {/* <div class="card-footer">
-                  </div>               */}
                 </div>
                 
                 <div class="card text-card-padding colorfondocardservicios_construccioncivil border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 ">
 
-                  <img class="card-img-fluid encuadrarimagen" src={edificaciones} with='50%' height='50%' alt="Card image cap"/>
+                  <img id="servicios-icono-efecto" class="card-img-fluid encuadrarimagen" src={edificaciones} with='50%' height='50%' alt="Card image cap"/>
 
                   <div class="card-body">
                     <h5 class="card-title titulo2-text text-white shadow-text">EDIFICACIONES</h5>
@@ -73,13 +69,10 @@ export default function ItemsCards_TextoCentral() {
                         {/* Realmente nos encargamos de todas las fases de una obra ofreciendo soluciones integrales de construcción, contacta con nosotros para cualquier duda que tengas. */}
                     </p>                    
                   </div>
-
-                     {/* <div class="card-footer">
-                    </div>               */}
                 </div>                
 
                 <div class="card text-card-padding colorfondocardservicios_construccioncivil  border-0 rounded-0 col-xs-12 col-sm-6 col-md-6 col-lg-12 col-xl-3">
-                  <img class="card-img-fluid encuadrarimagen" src={canalesacueductos} with='50%' height='50%' alt="Card image cap"/>
+                  <img id="servicios-icono-efecto" class="card-img-fluid encuadrarimagen" src={canalesacueductos} with='50%' height='50%' alt="Card image cap"/>
                   <div class="card-body">
                     <h5 class="card-title titulo2-text text-white shadow-text">CANALES DE IRRIGACION</h5>
                     <p class="card-text titulo4-text shadow-text text-white texto-justificado">
@@ -89,8 +82,6 @@ export default function ItemsCards_TextoCentral() {
                     </p>                             
                   </div>
 
-                    {/* <div class="card-footer">
-                    </div>               */}
                   </div>
 
             </div>
