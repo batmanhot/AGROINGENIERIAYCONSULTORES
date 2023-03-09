@@ -6,7 +6,7 @@ import { FaServicestack, FaSuitcase, FaUserTie } from "react-icons/fa";
 import { RiContactsFill } from "react-icons/ri";
 import { BsFacebook, BsWhatsapp, BsYoutube} from "react-icons/bs";
 import imagenwhatsapp  from "../imagen/whatsapp.png"
-import imagenjblaseirl  from "../imagen/jblaseirl.jpg"
+import imagenjblaseirl  from "../imagen/jblaseirl.png"
 
 import '../css/Footer.css'
 import '../css/Whatsapp.css'
@@ -70,12 +70,10 @@ const PiedePagina = () => {
           </div>
           </div>
         <div class="row">
-          <div class="col-md-12 copy">
-            <p class="text-center">&copy; Derechos de Autor 2022 - JBLAS PERU EIRL <imagenjblaseirl size={22} class='footer-icono-ubicacion'/></p>
-              <img class="img-fluid" src={imagenjblaseirl} alt="WhatsApp Imagen para Chatear" width="80px"/>
-            <br />
-            <br />
-            
+          <div class="col-md-12 copy mt-4">            
+            <img class="img-fluid" src={imagenjblaseirl} alt="Logo de jblas eirl" width="150px" />                        
+            {/* <p class="text-center mt-0 border border-3">&copy; Derechos de Autor 2022 - JBLAS PERU EIRL <imagenjblaseirl size={22} class='footer-icono-ubicacion'/></p> */}
+            <p class="text-center mt-0">&copy; Derechos de Autor 2022 - JBLAS PERU EIRL </p>
           </div>
         </div>
 
