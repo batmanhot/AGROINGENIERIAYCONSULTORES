@@ -38,8 +38,7 @@ const PiedePagina = () => {
                 <h4>UBICACION</h4>
                 <div class='footer-ubicacion'>                
                   <p><AiFillPhone size={22} class='footer-icono-ubicacion'/> Telefonos: <br /> 980556159, 949553216</p>  
-                  <p><MdEmail  size={22} class='footer-icono-ubicacion'/> Correo Electronico <br /> jblasperu@hotmail.com <br />topblas1@hotmail.com</p>
-                  {/* <p><ImLocation size={22} class='footer-icono-ubicacion'/>Ubicacion : AUCALLAMA - HUARAL - PERU </p> */}
+                  <p><MdEmail  size={22} class='footer-icono-ubicacion'/> Correo Electronico <br /> contacto@agroingenieriaperu.com <br />administracion@agroingenieriaperu.com</p>
                   <a href = "https://goo.gl/maps/SVDTBhWzieaXybfe9" target="_blank"  title="Ubicacion Plaza de Armas de Aucallama - HUARAL CITY"><ImLocation size={22} class='footer-icono-ubicacion'/> Ubicacion : AUCALLAMA - HUARAL - PERU </a>              
                 </div>                
               </div>
@@ -64,8 +63,8 @@ const PiedePagina = () => {
                   {/* <ul class="social-network social-circle"> */}
                   <ul class="social-network social-circle">
                     <li><a href="https://www.facebook.com/JBLASPERU/" class="icoFacebook" title="Facebook - Vea nuestras publicaciones en nuetra red"><BsFacebook size={28}/> </a></li>                    
-                    <li><a href="https://www.instagram.com/jblasperu/" class="icoLinkedin" title="Linkedin en nuestras publicaciones"><AiFillLinkedin size={28}/> </a></li>
-                    <li><a href="https://www.youtube.com/channel/UCN9I8mz5bhpNL3Nuv0CV_Zw" class="icoLinkedin" title="Youtube - Vea nuestras publicaciones en nuetro canal"><BsYoutube size={28}/> </a></li>
+                    <li><a href="https://instagram.com/agroingenieria_consultoresperu?igshid=ZDdkNTZiNTM=" class="icoLinkedin" title="Linkedin en nuestras publicaciones"><AiFillLinkedin size={28}/> </a></li>
+                    <li><a href="https://youtube.com/@jblasperu" class="icoLinkedin" title="Youtube - Vea nuestras publicaciones en nuetro canal"><BsYoutube size={28}/> </a></li>
                     <li><a href="https://api.whatsapp.com/send?phone=51949553216&text=Me%20interesa%20realizar%20alguna%20consulta%20.....%20" target="_blank"  class="icoLinkedin" title="WhatApp - Comuniquese sin compromiso"><BsWhatsapp size={28}/> </a></li>
                   </ul>               
           </div>
